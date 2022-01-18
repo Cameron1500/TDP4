@@ -45,7 +45,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype_1.brd")
+       "C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_rev1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -56,7 +56,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype.brd"))
+       "C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_empty.brd"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -69,6 +69,31 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("SW SPDT"
+      (FullPartName "SW SPDT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (Battery_Holder
+      (FullPartName "Battery_Holder.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (SFV24R-4STE1HLF
+      (FullPartName "SFV24R-4STE1HLF.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\SFV24R-4STE1HLF.OLB")
+      (DeviceIndex "0"))
     (MDE0154A152152BW
       (FullPartName "MDE0154A152152BW.Normal")
       (LibraryName
@@ -98,11 +123,6 @@
       (LibraryName
          "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\NRH2412T100MNGH.OLB")
       (DeviceIndex "0"))
-    (SFV24R-4STE1HLF
-      (FullPartName "SFV24R-4STE1HLF.Normal")
-      (LibraryName
-         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\SFV24R-4STE1HLF.OLB")
-      (DeviceIndex "0"))
     (SI1308EDL-T1-BE3
       (FullPartName "SI1308EDL-T1-BE3.Normal")
       (LibraryName
@@ -121,12 +141,6 @@
       (FullPartName "SW SPST.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
     ("HEADER 1"
       (FullPartName "HEADER 1.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -138,11 +152,6 @@
     (CON6
       (FullPartName "CON6.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
@@ -171,18 +180,11 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\camer\onedrive - university of glasgow\year 4\courses\tdp\pcb\prototype\prototype.dsn")
-      (Path "Design Resources"
-         "c:\users\camer\onedrive - university of glasgow\year 4\courses\tdp\pcb\prototype\prototype.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\prototype.dsn")
+      (Path "Design Resources" ".\prototype.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\camer\onedrive - university of glasgow\year 4\courses\tdp\pcb\prototype\lib\tdp.olb")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\camer\onedrive - university of glasgow\year 4\courses\tdp\pcb\prototype\prototype.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources" "Library" ".\lib\tdp.olb")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -192,12 +194,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1238 52 313")
-        (Scroll "-346 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
+        (Scroll "-329 0")
         (Zoom "46")
         (Occurrence "/"))
       (Path
-         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\PROTOTYPE.DSN")
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Camer")

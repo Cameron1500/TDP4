@@ -1,11 +1,21 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Jan-14-2022 at 15:37:51 }
+{ Using PSTWRITER 17.2.0 d001Jan-18-2022 at 19:32:01 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PROTOTYPE';
  POST_TIME='Apr 15 2018 17:30:46';
  SOURCE_TOOL='CAPTURE_WRITER';
 END_DIRECTIVES;
+
+PART_NAME
+ BT1 'BATTERY_HOLDER_30212_2 X CR2032':;
+
+SECTION_NUMBER 1
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS52158@TDP.BATTERY_HOLDER.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins52158@tdp.\battery_holder.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins52158@tdp.\battery_holder.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
 
 PART_NAME
  C1 'C_GU-C0603_1U':;
@@ -81,9 +91,9 @@ PART_NAME
  C7 'C_GU-C0603_1U / 50V':;
 
 SECTION_NUMBER 1
- '@PROTOTYPE.SCHEMATIC1(SCH_1):INS27009@ANALOG.C.NORMAL(CHIPS)':
- C_PATH='@prototype.schematic1(sch_1):ins27009@analog.\c.normal\(chips)',
- P_PATH='@prototype.schematic1(sch_1):page1_ins27009@analog.\c.normal\(chips)',
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS47716@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins47716@analog.\c.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins47716@analog.\c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -101,9 +111,9 @@ PART_NAME
  C9 'C_GU-C0603_1U / 50V':;
 
 SECTION_NUMBER 1
- '@PROTOTYPE.SCHEMATIC1(SCH_1):INS26814@ANALOG.C.NORMAL(CHIPS)':
- C_PATH='@prototype.schematic1(sch_1):ins26814@analog.\c.normal\(chips)',
- P_PATH='@prototype.schematic1(sch_1):page1_ins26814@analog.\c.normal\(chips)',
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS47794@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins47794@analog.\c.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins47794@analog.\c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -158,7 +168,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J3 'CON3_GU-MOLEX3_CON3':;
+ J3 'CON3_GU-MOLEX3_VOLT TP':;
 
 SECTION_NUMBER 1
  '@PROTOTYPE.SCHEMATIC1(SCH_1):INS39503@CONNECTOR.CON3.NORMAL(CHIPS)':
@@ -174,6 +184,16 @@ SECTION_NUMBER 1
  '@PROTOTYPE.SCHEMATIC1(SCH_1):INS32624@CONNECTOR.CON6.NORMAL(CHIPS)':
  C_PATH='@prototype.schematic1(sch_1):ins32624@connector.\con6.normal\(chips)',
  P_PATH='@prototype.schematic1(sch_1):page1_ins32624@connector.\con6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'SFV24R-4STE1HLF_SFV24R4STE1HLF_':;
+
+SECTION_NUMBER 1
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS49776@SFV24R-4STE1HLF.SFV24R-4STE1HLF.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins49776@\sfv24r-4ste1hlf\.\sfv24r-4ste1hlf.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins49776@\sfv24r-4ste1hlf\.\sfv24r-4ste1hlf.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -218,6 +238,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R3 'R_GU-R0805_10K':;
+
+SECTION_NUMBER 1
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS51137@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins51137@analog.\r.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins51137@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  S1 'SSSS213100_SSSS213100_SSSS21310':;
 
 SECTION_NUMBER 1
@@ -228,14 +258,14 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U3 '3021-2_30212_BATTERY':;
+ SW1 'SW SPDT_SSSS213100_POWER SELECT':;
 
 SECTION_NUMBER 1
- '@PROTOTYPE.SCHEMATIC1(SCH_1):INS38555@3021-2.3021-2.NORMAL(CHIPS)':
- C_PATH='@prototype.schematic1(sch_1):ins38555@\3021-2\.\3021-2.normal\(chips)',
- P_PATH='@prototype.schematic1(sch_1):page1_ins38555@\3021-2\.\3021-2.normal\(chips)',
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS59029@DISCRETE.SW SPDT.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins59029@discrete.\sw spdt.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins59029@discrete.\sw spdt.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- SECTION='A';
+ SECTION='';
 
 PART_NAME
  U4 'ESP32-DEVKITC_ESP32-DEVKITC_ESP':;
@@ -244,16 +274,6 @@ SECTION_NUMBER 1
  '@PROTOTYPE.SCHEMATIC1(SCH_1):INS41380@TDP.ESP32-DEVKITC.NORMAL(CHIPS)':
  C_PATH='@prototype.schematic1(sch_1):ins41380@tdp.\esp32-devkitc.normal\(chips)',
  P_PATH='@prototype.schematic1(sch_1):page1_ins41380@tdp.\esp32-devkitc.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U5 'MDE0154A152152BW_E-INK_MDE0154A':;
-
-SECTION_NUMBER 1
- '@PROTOTYPE.SCHEMATIC1(SCH_1):INS43994@TDP.MDE0154A152152BW.NORMAL(CHIPS)':
- C_PATH='@prototype.schematic1(sch_1):ins43994@tdp.\mde0154a152152bw.normal\(chips)',
- P_PATH='@prototype.schematic1(sch_1):page1_ins43994@tdp.\mde0154a152152bw.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

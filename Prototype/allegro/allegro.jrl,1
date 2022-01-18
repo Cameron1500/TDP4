@@ -1,24 +1,25 @@
 \t (00:00:03) allegro 17.2 S038 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Fri Jan 14 15:38:14 2022
-\t (00:00:03)         Host=CAMERON-LAPTOP User=Camer Pid=9164 CPUs=8
+\t (00:00:03)     Journal start - Tue Jan 18 19:32:15 2022
+\t (00:00:03)         Host=CAMERON-LAPTOP User=Camer Pid=664 CPUs=8
 \t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
 \t (00:00:03) 
    (00:00:03) Loading axlcore.cxt 
 \t (00:00:03) Opening existing design...
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged prototype
-\d (00:00:06) Design opened: C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/prototype.brd
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged prototype_empty
+\d (00:00:06) Design opened: C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/prototype_empty.brd
 \i (00:00:06) trapsize 9239
 \i (00:00:06) trapsize 9977
 \i (00:00:06) trapsize 9499
 \i (00:00:06) trapsize 9977
 \i (00:00:06) trapsize 9977
-\i (00:00:06) trapsize 9239
+\i (00:00:07) trapsize 9239
 \i (00:00:07) etchedit 
-\i (00:00:07) new 
-\i (00:00:08) newdrawfillin "menu_cancel"
-\i (00:00:08) etchedit 
-\i (00:00:09) open 
-\i (00:00:11) fillin "prototype_1.brd"
-\t (00:00:11) Opening existing design...
-\i (00:00:11) trapsize 9239
-\t (00:00:12)     Journal end - Fri Jan 14 15:38:22 2022
+\i (00:00:08) save 
+\i (00:00:11) fillin no 
+\i (00:00:14) fillin "menu_cancel"
+\i (00:00:14) etchedit 
+\i (00:00:16) open 
+\i (00:00:19) fillin "prototype_rev1.brd"
+\t (00:00:19) Opening existing design...
+\i (00:00:19) trapsize 9239
+\t (00:00:19)     Journal end - Tue Jan 18 19:32:30 2022

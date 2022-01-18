@@ -1,5 +1,23 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-14-2022 at 15:37:51}
+{ Using PSTWRITER 17.2.0 d001Jan-18-2022 at 19:32:01}
+primitive 'BATTERY_HOLDER_30212_2 X CR2032';
+  pin
+    '+1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '+2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '-1':
+      PIN_NUMBER='(NP1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Battery_Holder';
+    JEDEC_TYPE='30212';
+    VALUE='2 x CR2032';
+  end_body;
+end_primitive;
 primitive 'C_GU-C0603_1U';
   pin
     '1':
@@ -105,7 +123,7 @@ primitive 'JUMPER_GU-JUMPER2_AMMETER TP';
     VALUE='AMMETER TP';
   end_body;
 end_primitive;
-primitive 'CON3_GU-MOLEX3_CON3';
+primitive 'CON3_GU-MOLEX3_VOLT TP';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -120,7 +138,7 @@ primitive 'CON3_GU-MOLEX3_CON3';
   body
     PART_NAME='CON3';
     JEDEC_TYPE='GU-MOLEX3';
-    VALUE='CON3';
+    VALUE='VOLT TP';
   end_body;
 end_primitive;
 primitive 'CON6_GU-MOLEX6_SPI TP';
@@ -148,6 +166,93 @@ primitive 'CON6_GU-MOLEX6_SPI TP';
     PART_NAME='CON6';
     JEDEC_TYPE='GU-MOLEX6';
     VALUE='SPI TP';
+  end_body;
+end_primitive;
+primitive 'SFV24R-4STE1HLF_SFV24R4STE1HLF_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    '19':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    '20':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    '21':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    '22':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    '23':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    '24':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    '25':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    '26':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SFV24R-4STE1HLF';
+    JEDEC_TYPE='SFV24R4STE1HLF';
+    VALUE='SFV24R-4STE1HLF';
   end_body;
 end_primitive;
 primitive 'L_NRH2412T2R2MNGH_10UH';
@@ -213,6 +318,21 @@ primitive 'R_GU-R0805_3R';
     VALUE='3R';
   end_body;
 end_primitive;
+primitive 'R_GU-R0805_10K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='GU-R0805';
+    VALUE='10k';
+  end_body;
+end_primitive;
 primitive 'SSSS213100_SSSS213100_SSSS21310';
   pin
     'NC':
@@ -231,22 +351,22 @@ primitive 'SSSS213100_SSSS213100_SSSS21310';
     VALUE='SSSS213100';
   end_body;
 end_primitive;
-primitive '3021-2_30212_BATTERY';
+primitive 'SW SPDT_SSSS213100_POWER SELECT';
   pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
+    'COMMON':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    'NEGATIVE_CONTACT_PAD':
-      PIN_NUMBER='(NP1)';
+    'NC':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NO':
+      PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='3021-2';
-    JEDEC_TYPE='30212';
-    VALUE='Battery';
+    PART_NAME='SW SPDT';
+    JEDEC_TYPE='SSSS213100';
+    VALUE='POWER SELECTOR';
   end_body;
 end_primitive;
 primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
@@ -370,89 +490,6 @@ primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
     PART_NAME='ESP32-DevKitC';
     JEDEC_TYPE='ESP32-DevKitC';
     VALUE='ESP32-DevKitC';
-  end_body;
-end_primitive;
-primitive 'MDE0154A152152BW_E-INK_MDE0154A';
-  pin
-    'NC1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GDR':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'RESE':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'NC2':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VSH2':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'TSCL':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'TSDA':
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'BS1':
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'BUSY':
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'RES#':
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'D/C#':
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'CS#':
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    'SCL':
-      PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
-    'SDA':
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
-    'VDDIO':
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-    'VCI':
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'VSS':
-      PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
-    'VDD':
-      PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
-    'VPP':
-      PIN_NUMBER='(19)';
-      PINUSE='UNSPEC';
-    'VSH1':
-      PIN_NUMBER='(20)';
-      PINUSE='UNSPEC';
-    'VGH':
-      PIN_NUMBER='(21)';
-      PINUSE='UNSPEC';
-    'VSL':
-      PIN_NUMBER='(22)';
-      PINUSE='UNSPEC';
-    'VGL':
-      PIN_NUMBER='(23)';
-      PINUSE='UNSPEC';
-    'VCOM':
-      PIN_NUMBER='(24)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    POWER_PINS='(NC3:25)';
-    POWER_PINS='(NC4:26)';
-    PART_NAME='MDE0154A152152BW';
-    JEDEC_TYPE='E-INK';
-    VALUE='MDE0154A152152BW';
   end_body;
 end_primitive;
 END.

@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : prototype.brd                                 )
+(    Drawing          : prototype_empty.brd                           )
 (    Software Version : 17.2S038                                      )
-(    Date/Time        : Fri Jan 14 15:37:55 2022                      )
+(    Date/Time        : Tue Jan 18 19:32:02 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,28 +17,24 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\allegro'
-Design Directory:            'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro'
-Old design name:             'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro/prototype.brd'
-New design name:             'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro/prototype_1.brd'
+Schematic directory:         'C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\allegro'
+Design Directory:            'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro'
+Old design name:             'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd'
+New design name:             'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro/prototype_rev1.brd'
 
-CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\allegro C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype.brd C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype_1.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\allegro C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_empty.brd C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_rev1.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstchip.dat 
-   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstchip.dat (00:00:00.02)
-Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxprt.dat 
-   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxprt.dat (00:00:00.00)
-Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxnet.dat 
-   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxnet.dat (00:00:00.00)
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstchip.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxprt.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxnet.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'E-INK' used by RefDes U5 for device 'MDE0154A152152BW_E-INK_MDE0154A' not found in PSMPATH or must be "dbdoctor"ed.
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -64,7 +60,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 14 15:37:55 2022
+netrev run on Jan 18 19:32:02 2022
    DESIGN NAME : 'PROTOTYPE'
    PACKAGING ON Apr 15 2018 17:30:46
 
@@ -87,8 +83,8 @@ netrev run on Jan 14 15:37:55 2022
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:00:43
+cpu time      0:00:51
 elapsed time  0:00:00
 
