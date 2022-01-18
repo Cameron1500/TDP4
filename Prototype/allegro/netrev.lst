@@ -1,0 +1,94 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : prototype.brd                                 )
+(    Software Version : 17.2S038                                      )
+(    Date/Time        : Fri Jan 14 15:37:55 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\allegro'
+Design Directory:            'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro'
+Old design name:             'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro/prototype.brd'
+New design name:             'C:/Users/Camer/OneDrive - University of Glasgow/Year 4/Courses/TDP/PCB/Prototype/allegro/prototype_1.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\allegro C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype.brd C:\Users\Camer\OneDrive - University of Glasgow\Year 4\Courses\TDP\PCB\Prototype\allegro\prototype_1.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstchip.dat 
+   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstchip.dat (00:00:00.02)
+Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxprt.dat 
+   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxnet.dat 
+   Finished reading C:/USERS/CAMER/ONEDRIVE - UNIVERSITY OF GLASGOW/YEAR 4/COURSES/TDP/PCB/PROTOTYPE/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'E-INK' used by RefDes U5 for device 'MDE0154A152152BW_E-INK_MDE0154A' not found in PSMPATH or must be "dbdoctor"ed.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jan 14 15:37:55 2022
+   DESIGN NAME : 'PROTOTYPE'
+   PACKAGING ON Apr 15 2018 17:30:46
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:00:43
+elapsed time  0:00:00
+
