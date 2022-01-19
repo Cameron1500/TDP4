@@ -71,10 +71,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (VCC_BAR
+    (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (GND
+    (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (MIC5317-3.3YM5-TR
@@ -203,8 +203,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "-389 -1")
-        (Zoom "46")
+        (Scroll "-166 0")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\PROTOTYPE.DSN")
