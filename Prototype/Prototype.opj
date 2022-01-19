@@ -16,6 +16,8 @@
       (File ".\lib\tdp.olb"
         (Type "Schematic Library"))
       (File ".\lib\mbr0530t1g.olb"
+        (Type "Schematic Library"))
+      (File ".\lib\mic5317-3.3ym5-tr.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\prototype.dsn"
@@ -69,20 +71,25 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    ("SW SPDT"
-      (FullPartName "SW SPDT.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MIC5317-3.3YM5-TR
+      (FullPartName "MIC5317-3.3YM5-TR.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\MIC5317-3.3YM5-TR.OLB")
+      (DeviceIndex "0"))
+    ("SW SPDT"
+      (FullPartName "SW SPDT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (Battery_Holder
       (FullPartName "Battery_Holder.Normal")
       (LibraryName
          "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\TDP.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
@@ -195,14 +202,13 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "-329 0")
-        (Zoom "46")
+        (Scroll "-106 156")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
          "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Camer")
-  (LastUsedLibraryBrowseDirectory
-     "C:\Cadence\SPB_17.2\tools\capture\library\pspice")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (ISPCBBASICLICENSE "false"))

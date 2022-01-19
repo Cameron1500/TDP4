@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 10:30:17}
+{ Using PSTWRITER 17.2.0 d001Jan-18-2022 at 19:32:01}
 primitive 'BATTERY_HOLDER_30212_2 X CR2032';
   pin
     '+1':
@@ -270,30 +270,6 @@ primitive 'L_NRH2412T2R2MNGH_10UH';
     VALUE='10uH';
   end_body;
 end_primitive;
-primitive 'MIC5317-3.3YM5-TR_SOT95P280X100';
-  pin
-    'VIN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'NC':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MIC5317-3.3YM5-TR';
-    JEDEC_TYPE='SOT95P280X100-5N';
-    VALUE='MIC5317-3.3YM5-TR';
-  end_body;
-end_primitive;
 primitive 'SI1308EDL-T1-BE3_SOT65P210X110-';
   pin
     'G':
@@ -375,7 +351,7 @@ primitive 'SSSS213100_SSSS213100_SSSS21310';
     VALUE='SSSS213100';
   end_body;
 end_primitive;
-primitive 'SW SPDT_GU-JUMPER3_POWER SELECT';
+primitive 'SW SPDT_SSSS213100_POWER SELECT';
   pin
     'COMMON':
       PIN_NUMBER='(2)';
@@ -389,7 +365,7 @@ primitive 'SW SPDT_GU-JUMPER3_POWER SELECT';
   end_pin;
   body
     PART_NAME='SW SPDT';
-    JEDEC_TYPE='GU-JUMPER3';
+    JEDEC_TYPE='SSSS213100';
     VALUE='POWER SELECTOR';
   end_body;
 end_primitive;
