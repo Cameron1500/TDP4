@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 10:49:18 }
+{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 13:58:51 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PROTOTYPE';
@@ -34,6 +34,26 @@ SECTION_NUMBER 1
  '@PROTOTYPE.SCHEMATIC1(SCH_1):INS26788@ANALOG.C.NORMAL(CHIPS)':
  C_PATH='@prototype.schematic1(sch_1):ins26788@analog.\c.normal\(chips)',
  P_PATH='@prototype.schematic1(sch_1):page1_ins26788@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_GU-C0603_1U':;
+
+SECTION_NUMBER 1
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS61643@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins61643@analog.\c.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins61643@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_GU-C0603_1U':;
+
+SECTION_NUMBER 1
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS61694@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins61694@analog.\c.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins61694@analog.\c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

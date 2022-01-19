@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 10:30:17}
+{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 10:37:32}
 primitive 'BATTERY_HOLDER_30212_2 X CR2032';
   pin
     '+1':
@@ -375,7 +375,7 @@ primitive 'SSSS213100_SSSS213100_SSSS21310';
     VALUE='SSSS213100';
   end_body;
 end_primitive;
-primitive 'SW SPDT_GU-JUMPER3_POWER SELECT';
+primitive 'SW SPDT_GU-SW-SLIDE-SPDT_POWER';
   pin
     'COMMON':
       PIN_NUMBER='(2)';
@@ -389,7 +389,7 @@ primitive 'SW SPDT_GU-JUMPER3_POWER SELECT';
   end_pin;
   body
     PART_NAME='SW SPDT';
-    JEDEC_TYPE='GU-JUMPER3';
+    JEDEC_TYPE='GU-SW-SLIDE-SPDT';
     VALUE='POWER SELECTOR';
   end_body;
 end_primitive;
