@@ -192,19 +192,19 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\lib\tdp.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\prototype.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\prototype.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 222"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 222"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "-166 0")
-        (Zoom "92")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
+        (Scroll "0 74")
+        (Zoom "126")
         (Occurrence "/"))
       (Path
          "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\PROTOTYPE.DSN")

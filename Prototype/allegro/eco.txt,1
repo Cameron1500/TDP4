@@ -3,17 +3,17 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
   3V3          pins ADDED TO this new net
-                                 C2.2           C4.2           J3.2           
-                                 J5.15          J5.16          L1.1           
-                                 PS1.5          R1.1           U4.1           
-                                 U4.2           
+                                 C2.2           C4.2           C12.2          
+                                 J3.2           J5.15          J5.16          
+                                 L1.1           PS1.5          R1.1           
+                                 U4.1           U4.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   BATT         pins ADDED TO this new net
                                  BT1.1          BT1.2          J3.3           
@@ -36,10 +36,11 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins ADDED TO this new net
                                  BT1.NP1        C2.1           C7.1           
-                                 C9.1           D1.1           J1.1           
-                                 J3.1           J4.1           PS1.2          
-                                 R2.1           R3.1           U4.14          
-                                 U4.32          U4.38          
+                                 C9.1           C11.1          C12.1          
+                                 D1.1           J1.1           J3.1           
+                                 J4.1           PS1.2          R2.1           
+                                 R3.1           U4.14          U4.32          
+                                 U4.38          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N09940       pins ADDED TO this new net
                                  C1.2           D3.2           L1.2           
@@ -53,13 +54,12 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N27155       pins ADDED TO this new net
                                  C8.2           J5.22          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -98,7 +98,8 @@
                                  J4.3           J5.14          U4.37          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VCC          pins ADDED TO this new net
-                                 PS1.1          PS1.3          S1.3           
+                                 C11.2          PS1.1          PS1.3          
+                                 S1.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VGH          pins ADDED TO this new net
                                  C7.2           D3.1           J5.21          
@@ -110,7 +111,7 @@
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -141,7 +142,7 @@
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -158,6 +159,8 @@
  C8                  C_GU-C0603_1U / 25V   
  C9                  C_GU-C0603_1U / 50V   
  C10                 C_GU-C0603_1U / 25V   
+ C11                 C_GU-C0603_1U         
+ C12                 C_GU-C0603_1U         
  D1                  MBR0530T1_SOD3716X135N_MBR0530T 
  D2                  MBR0530T1_SOD3716X135N_MBR0530T 
  D3                  MBR0530T1_SOD3716X135N_MBR0530T 
@@ -180,7 +183,7 @@
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -197,6 +200,8 @@
  C8.2                           PRIM_FILE      .\pstchip.dat
  C9.2                           PRIM_FILE      .\pstchip.dat
  C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
  D1.1                           PRIM_FILE      .\pstchip.dat
  D2.1                           PRIM_FILE      .\pstchip.dat
  D3.1                           PRIM_FILE      .\pstchip.dat
@@ -219,17 +224,17 @@
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
 |  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 10:49:19 2022  |
+|                                                    Wed Jan 19 13:58:51 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      92                                        |
+|       Nets changed          :      96                                        |
 |       Comp definitions added:      20                                        |
-|       Components added      :      28                                        |
-|       Slot property added   :      28                                        |
+|       Components added      :      30                                        |
+|       Slot property added   :      30                                        |
 |                                                                              |
-|   Total ECO changes reported:     168                                        |
+|   Total ECO changes reported:     176                                        |
 |------------------------------------------------------------------------------|
