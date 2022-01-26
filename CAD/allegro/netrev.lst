@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : prototype_empty.brd                           )
+(    Software Version : 17.2S038                                      )
+(    Date/Time        : Thu Jan 20 13:50:13 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\allegro'
+Design Directory:            'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro'
+Old design name:             'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd'
+New design name:             'C:/Users/Camer/Documents/Electronics Projects/TDP4/Prototype/allegro/prototype_rev1.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\allegro C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_empty.brd C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_rev1.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstchip.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxprt.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxnet.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/ELECTRONICS PROJECTS/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jan 20 13:50:13 2022
+   DESIGN NAME : 'PROTOTYPE'
+   PACKAGING ON Apr 15 2018 17:30:46
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:38
+elapsed time  0:00:00
+
