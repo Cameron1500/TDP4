@@ -1,0 +1,78 @@
+\t (00:00:08) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Wed Jan 26 13:42:12 2022
+\t (00:00:08)         Host=CAMERON-LAPTOP User=Camer Pid=15700 CPUs=8
+\t (00:00:08) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:08) 
+\d (00:00:08) Design opened: C:/Users/Camer/Documents/Electronics Projects/TDP4/TDP4/Production/allegro/Production_rev1.brd
+\i (00:00:08) generaledit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -10.6565 -3.8739
+\i (00:00:10) trapsize 32283
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -10.6565 -3.8739
+\i (00:00:10) trapsize 16141
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -27.1205 9.3620
+\i (00:00:11) trapsize 8071
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -27.1205 9.3620
+\i (00:00:11) trapsize 4035
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out -28.4925 10.5726
+\i (00:00:11) trapsize 8071
+\i (00:00:13) drag_start grid tgl -51.8973 31.2336
+\i (00:00:14) drag_stop tgl 45.9190 -30.5876
+\i (00:00:15) pick grid 48.9858 -12.0251
+\t (00:00:15) last pick:  49.0000 -12.0000
+\i (00:00:17) pick grid 40.4309 23.8086
+\t (00:00:17) last pick:  40.0000 24.0000
+\i (00:00:18) undo 
+\i (00:00:18) generaledit 
+\i (00:00:18) undo 
+\i (00:00:18) generaledit 
+\i (00:00:19) pick grid 37.8483 27.6825
+\t (00:00:19) last pick:  38.0000 28.0000
+\i (00:00:24) new 
+\i (00:00:32) newdrawfillin "Production_base.brd" "Board (Wizard)"
+\t (00:00:32) Starting new design...
+\i (00:00:32) trapsize 64565
+\i (00:00:33) trapsize 64565
+\i (00:00:33) layout wizard 
+\i (00:00:34) setwindow form.brd_wizard
+\i (00:00:34) FORM brd_wizard wiz_next  
+   (00:00:34) Loading cmds.cxt 
+\i (00:00:34) FORM brd_wizard wiz_next  
+\i (00:00:35) FORM brd_wizard wiz_next  
+\i (00:00:36) FORM brd_wizard wiz_next  
+\i (00:00:37) FORM brd_wizard board_units Millimeter 
+\i (00:00:39) FORM brd_wizard wiz_next  
+\i (00:00:42) FORM brd_wizard dont_generate_art_films YES 
+\i (00:00:43) FORM brd_wizard wiz_next  
+\i (00:00:44) FORM brd_wizard wiz_next  
+\i (00:00:47) FORM brd_wizard min_line_width 1.0000 
+\i (00:00:47) FORM brd_wizard def_via_browse  
+\t (00:00:51) No valid name selected.
+\i (00:00:53) fillin "Gu-via80"
+\i (00:00:54) FORM brd_wizard wiz_next  
+\i (00:00:55) FORM brd_wizard rectangular_board YES 
+\i (00:00:56) FORM brd_wizard wiz_next  
+\i (00:01:01) FORM brd_wizard rb_outline_width 86.5000 
+\i (00:01:07) FORM brd_wizard rb_outline_height 53.9800 
+\i (00:01:18) FORM brd_wizard rb_outline_width 85.6000 
+\i (00:01:21) FORM brd_wizard rb_route_keepin_distance 1.0000 
+\i (00:01:23) FORM brd_wizard rb_package_keepin_distance 1.0000 
+\i (00:01:23) FORM brd_wizard wiz_next  
+\i (00:01:24) FORM brd_wizard wiz_finish  
+\i (00:01:24) setwindow pcb
+\i (00:01:24) trapsize 64565
+\i (00:01:24) trapsize 64565
+\i (00:01:25) generaledit 
+\i (00:01:29) exit 
+\e (00:01:29) Do you want to save the changes you made to Production_base.brd?
+\i (00:01:31) fillin yes 
+\t (00:01:31)     Journal end - Wed Jan 26 13:43:35 2022

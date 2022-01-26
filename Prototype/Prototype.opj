@@ -72,6 +72,11 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MBR0530T1G
+      (FullPartName "MBR0530T1G.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\TDP4\PROTOTYPE\LIB\MBR0530T1G.OLB")
+      (DeviceIndex "0"))
     (SSSS213100
       (FullPartName "SSSS213100.Normal")
       (LibraryName
@@ -116,11 +121,6 @@
       (FullPartName "ESP32-DevKitC.Normal")
       (LibraryName
          "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\TDP.OLB")
-      (DeviceIndex "0"))
-    (MBR0530T1G
-      (FullPartName "MBR0530T1G.Normal")
-      (LibraryName
-         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\MBR0530T1G.OLB")
       (DeviceIndex "0"))
     (CON3
       (FullPartName "CON3.Normal")
@@ -192,23 +192,22 @@
       (Path "Design Resources" ".\prototype.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\lib\tdp.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\prototype.dsn" "Design Cache"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 222"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 222"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "-19 142")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
+        (Scroll "-106 0")
         (Zoom "92")
         (Occurrence "/"))
       (Path
-         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\PROTOTYPE.DSN")
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\TDP4\PROTOTYPE\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Camer")

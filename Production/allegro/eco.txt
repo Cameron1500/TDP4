@@ -1,0 +1,216 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3V3          pins ADDED TO this new net
+                                 C2.2           C4.2           C12.2          
+                                 J5.15          J5.16          L1.1           
+                                 PS1.5          R1.1           U4.1           
+                                 U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BUSY         pins ADDED TO this new net
+                                 J5.9           U4.35          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DC           pins ADDED TO this new net
+                                 J5.11          U4.36          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  E-INK_CS     pins ADDED TO this new net
+                                 J5.12          U4.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GDR          pins ADDED TO this new net
+                                 J5.2           Q1.1           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 BT1.NP1        C2.1           C3.1           
+                                 C4.1           C5.1           C6.1           
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C11.1          C12.1          
+                                 D1.1           J5.8           J5.17          
+                                 PS1.2          R2.1           R3.1           
+                                 U4.14          U4.32          U4.38          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N52003       pins ADDED TO this new net
+                                 C1.1           D1.2           D2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N52121       pins ADDED TO this new net
+                                 C1.2           D3.2           L1.2           
+                                 Q1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N63094       pins ADDED TO this new net
+                                 C3.2           J5.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N63242       pins ADDED TO this new net
+                                 C5.2           J5.18          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N63270       pins ADDED TO this new net
+                                 C6.2           J5.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N63304       pins ADDED TO this new net
+                                 C8.2           J5.22          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N63338       pins ADDED TO this new net
+                                 C10.2          J5.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N65916       pins ADDED TO this new net
+                                 BT1.1          BT1.2          D4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESE         pins ADDED TO this new net
+                                 J5.3           Q1.2           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 J5.10          R1.2           U4.34          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 J5.13          U4.30          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 J5.14          U4.37          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 C11.2          PS1.1          PS1.3          
+                                 SW1.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VGH          pins ADDED TO this new net
+                                 C7.2           D3.1           J5.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VGL          pins ADDED TO this new net
+                                 C9.2           D2.2           J5.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V_BATT       pins ADDED TO this new net
+                                 D4.1           SW1.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BATTERY_HOLDER_30212_BATTERY_HO
+ C_GU-C0603_1U / 25V
+ C_GU-C0603_1U / 50V
+ C_GU-C0603_1U
+ C_GU-C0603_4.7U
+ ESP32-DEVKITC_ESP32-DEVKITC_ESP
+ L_NRH2412T2R2MNGH_10UH
+ MBR0530T1_SOD3716X135N_MBR0530T
+ MIC5317-3.3YM5-TR_SOT95P280X100
+ R_GU-R0805_3R
+ R_GU-R0805_10K
+ R_GU-R0805_100K
+ SFV24R-4STE1HLF_SFV24R4STE1HLF_
+ SI1308EDL-T1-BE3_SOT65P210X110-
+ SSSS213100_SSSS213100_SSSS21310
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1                 BATTERY_HOLDER_30212_BATTERY_HO 
+ C1                  C_GU-C0603_1U         
+ C2                  C_GU-C0603_4.7U       
+ C3                  C_GU-C0603_1U / 25V   
+ C4                  C_GU-C0603_1U / 25V   
+ C5                  C_GU-C0603_1U / 25V   
+ C6                  C_GU-C0603_1U / 25V   
+ C7                  C_GU-C0603_1U / 50V   
+ C8                  C_GU-C0603_1U / 25V   
+ C9                  C_GU-C0603_1U / 50V   
+ C10                 C_GU-C0603_1U / 25V   
+ C11                 C_GU-C0603_1U         
+ C12                 C_GU-C0603_1U         
+ D1                  MBR0530T1_SOD3716X135N_MBR0530T 
+ D2                  MBR0530T1_SOD3716X135N_MBR0530T 
+ D3                  MBR0530T1_SOD3716X135N_MBR0530T 
+ D4                  MBR0530T1_SOD3716X135N_MBR0530T 
+ J5                  SFV24R-4STE1HLF_SFV24R4STE1HLF_ 
+ L1                  L_NRH2412T2R2MNGH_10UH 
+ PS1                 MIC5317-3.3YM5-TR_SOT95P280X100 
+ Q1                  SI1308EDL-T1-BE3_SOT65P210X110- 
+ R1                  R_GU-R0805_100K       
+ R2                  R_GU-R0805_3R         
+ R3                  R_GU-R0805_10K        
+ SW1                 SSSS213100_SSSS213100_SSSS21310 
+ U4                  ESP32-DEVKITC_ESP32-DEVKITC_ESP 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1.NP1                        PRIM_FILE      .\pstchip.dat
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ J5.9                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ PS1.5                          PRIM_FILE      .\pstchip.dat
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ SW1.3                          PRIM_FILE      .\pstchip.dat
+ U4.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../TDP4/TDP4/Production/allegro/Production_base.brd                      |
+|                                                    Wed Jan 26 13:43:50 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      82                                        |
+|       Comp definitions added:      15                                        |
+|       Components added      :      26                                        |
+|       Slot property added   :      26                                        |
+|                                                                              |
+|   Total ECO changes reported:     149                                        |
+|------------------------------------------------------------------------------|
