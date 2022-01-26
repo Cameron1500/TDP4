@@ -58,7 +58,8 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_empty.brd"))
+       "C:\Users\Camer\Documents\Electronics Projects\TDP4\Prototype\allegro\prototype_empty.brd")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -71,6 +72,16 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (SSSS213100
+      (FullPartName "SSSS213100.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (Battery_Holder
+      (FullPartName "Battery_Holder.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\LIB\TDP.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -85,11 +96,6 @@
     ("SW SPDT"
       (FullPartName "SW SPDT.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (Battery_Holder
-      (FullPartName "Battery_Holder.Normal")
-      (LibraryName
-         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\TDP.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
@@ -134,11 +140,6 @@
       (FullPartName "SI1308EDL-T1-BE3.Normal")
       (LibraryName
          "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\SI1308EDL-T1-BE3.OLB")
-      (DeviceIndex "0"))
-    (SSSS213100
-      (FullPartName "SSSS213100.Normal")
-      (LibraryName
-         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\SSSS213100.OLB")
       (DeviceIndex "0"))
     ("SW SLIDE-SPDT"
       (FullPartName "SW SLIDE-SPDT.Normal")
@@ -192,22 +193,22 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\lib\tdp.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\prototype.dsn"))
+      (Select "Design Resources" ".\prototype.dsn" "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 222"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 222"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "0 74")
-        (Zoom "126")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1205 52 313")
+        (Scroll "-19 142")
+        (Zoom "92")
         (Occurrence "/"))
       (Path
-         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\PROTOTYPE.DSN")
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Camer")
