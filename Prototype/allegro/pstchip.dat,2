@@ -1,21 +1,18 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-19-2022 at 10:49:18}
-primitive 'BATTERY_HOLDER_30212_2 X CR2032';
+{ Using PSTWRITER 17.2.0 d001Jan-27-2022 at 13:39:46}
+primitive 'BATTERY_HOLDER_1_30212_BATTERY_';
   pin
-    '+1':
+    '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '+2':
+    '2':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '-1':
-      PIN_NUMBER='(NP1)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Battery_Holder';
+    PART_NAME='Battery_Holder_1';
     JEDEC_TYPE='30212';
-    VALUE='2 x CR2032';
+    VALUE='Battery_Holder';
   end_body;
 end_primitive;
 primitive 'C_GU-C0603_1U';
@@ -48,21 +45,6 @@ primitive 'C_GU-C0603_1U / 25V';
     VALUE='1u / 25V';
   end_body;
 end_primitive;
-primitive 'C_GU-C0603_4.7U';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='C';
-    JEDEC_TYPE='GU-C0603';
-    VALUE='4.7u';
-  end_body;
-end_primitive;
 primitive 'C_GU-C0603_1U / 50V';
   pin
     '1':
@@ -78,6 +60,21 @@ primitive 'C_GU-C0603_1U / 50V';
     VALUE='1u / 50V';
   end_body;
 end_primitive;
+primitive 'C_GU-C0603_4.7U';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='GU-C0603';
+    VALUE='4.7u';
+  end_body;
+end_primitive;
 primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
   pin
     'C':
@@ -91,81 +88,6 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     PART_NAME='MBR0530T1';
     JEDEC_TYPE='SOD3716X135N';
     VALUE='MBR0530T1';
-  end_body;
-end_primitive;
-primitive 'CON2_GU-TERMINAL2-200_EXT POWER';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON2';
-    JEDEC_TYPE='GU-TERMINAL2-200';
-    VALUE='EXT POWER';
-  end_body;
-end_primitive;
-primitive 'JUMPER_GU-JUMPER2_AMMETER TP';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='JUMPER';
-    JEDEC_TYPE='GU-JUMPER2';
-    VALUE='AMMETER TP';
-  end_body;
-end_primitive;
-primitive 'CON3_GU-MOLEX3_VOLT TP';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON3';
-    JEDEC_TYPE='GU-MOLEX3';
-    VALUE='VOLT TP';
-  end_body;
-end_primitive;
-primitive 'CON6_GU-MOLEX6_SPI TP';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    '6':
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON6';
-    JEDEC_TYPE='GU-MOLEX6';
-    VALUE='SPI TP';
   end_body;
 end_primitive;
 primitive 'SFV24R-4STE1HLF_SFV24R4STE1HLF_';
@@ -255,6 +177,81 @@ primitive 'SFV24R-4STE1HLF_SFV24R4STE1HLF_';
     VALUE='SFV24R-4STE1HLF';
   end_body;
 end_primitive;
+primitive 'CON3_GU-MOLEX3_VOLT TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON3';
+    JEDEC_TYPE='GU-MOLEX3';
+    VALUE='VOLT TP';
+  end_body;
+end_primitive;
+primitive 'CON6_GU-MOLEX6_SPI TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON6';
+    JEDEC_TYPE='GU-MOLEX6';
+    VALUE='SPI TP';
+  end_body;
+end_primitive;
+primitive 'JUMPER_GU-JUMPER2_AMMETER TP';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='JUMPER';
+    JEDEC_TYPE='GU-JUMPER2';
+    VALUE='AMMETER TP';
+  end_body;
+end_primitive;
+primitive 'CON2_GU-TERMINAL2-200_EXT POWER';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='GU-TERMINAL2-200';
+    VALUE='EXT POWER';
+  end_body;
+end_primitive;
 primitive 'L_NRH2412T2R2MNGH_10UH';
   pin
     '1':
@@ -268,30 +265,6 @@ primitive 'L_NRH2412T2R2MNGH_10UH';
     PART_NAME='L';
     JEDEC_TYPE='NRH2412T2R2MNGH';
     VALUE='10uH';
-  end_body;
-end_primitive;
-primitive 'MIC5317-3.3YM5-TR_SOT95P280X100';
-  pin
-    'VIN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'NC':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MIC5317-3.3YM5-TR';
-    JEDEC_TYPE='SOT95P280X100-5N';
-    VALUE='MIC5317-3.3YM5-TR';
   end_body;
 end_primitive;
 primitive 'SI1308EDL-T1-BE3_SOT65P210X110-';
@@ -327,21 +300,6 @@ primitive 'R_GU-R0805_100K';
     VALUE='100k';
   end_body;
 end_primitive;
-primitive 'R_GU-R0805_3R';
-  pin
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='GU-R0805';
-    VALUE='3R';
-  end_body;
-end_primitive;
 primitive 'R_GU-R0805_10K';
   pin
     '2':
@@ -357,22 +315,19 @@ primitive 'R_GU-R0805_10K';
     VALUE='10k';
   end_body;
 end_primitive;
-primitive 'SSSS213100_SSSS213100_SSSS21310';
+primitive 'R_GU-R0805_3R';
   pin
-    'NC':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'COM':
+    '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    'NO':
-      PIN_NUMBER='(3)';
+    '1':
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='SSSS213100';
-    JEDEC_TYPE='SSSS213100';
-    VALUE='SSSS213100';
+    PART_NAME='R';
+    JEDEC_TYPE='GU-R0805';
+    VALUE='3R';
   end_body;
 end_primitive;
 primitive 'SW SPDT_GU-SW-SLIDE-SPDT_POWER';
@@ -391,6 +346,24 @@ primitive 'SW SPDT_GU-SW-SLIDE-SPDT_POWER';
     PART_NAME='SW SPDT';
     JEDEC_TYPE='GU-SW-SLIDE-SPDT';
     VALUE='POWER SELECTOR';
+  end_body;
+end_primitive;
+primitive 'SSSS213100_SSSS213100_SSSS21310';
+  pin
+    'COM':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'NO':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SSSS213100';
+    JEDEC_TYPE='SSSS213100';
+    VALUE='SSSS213100';
   end_body;
 end_primitive;
 primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
@@ -514,6 +487,30 @@ primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
     PART_NAME='ESP32-DevKitC';
     JEDEC_TYPE='ESP32-DevKitC';
     VALUE='ESP32-DevKitC';
+  end_body;
+end_primitive;
+primitive 'MIC5317-3.3YM5-TR_SOT95P280X100';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'EN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='MIC5317-3.3YM5-TR';
+    JEDEC_TYPE='SOT95P280X100-5N';
+    VALUE='MIC5317-3.3YM5-TR';
   end_body;
 end_primitive;
 END.

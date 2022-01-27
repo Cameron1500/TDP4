@@ -2,45 +2,48 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
   3V3          pins ADDED TO this new net
-                                 C2.2           C4.2           C12.2          
-                                 J3.2           J5.15          J5.16          
-                                 L1.1           PS1.5          R1.1           
-                                 U4.1           U4.2           
+                                 C4.2           C6.2           C12.2          
+                                 J1.15          J1.16          J2.2           
+                                 L1.1           R1.1           U1.1           
+                                 U1.2           U2.5           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   BATT         pins ADDED TO this new net
-                                 BT1.1          BT1.2          J3.3           
+                                 D4.1           D5.1           J2.3           
                                  SW1.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   BUSY         pins ADDED TO this new net
-                                 J4.4           J5.9           U4.35          
+                                 J1.9           J3.4           U1.35          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   DC           pins ADDED TO this new net
-                                 J4.5           J5.11          U4.36          
+                                 J1.11          J3.5           U1.36          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   E-INK_CS     pins ADDED TO this new net
-                                 J4.6           J5.12          U4.29          
+                                 J1.12          J3.6           U1.29          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   EXT          pins ADDED TO this new net
-                                 J1.2           SW1.3          
+                                 J5.2           SW1.3          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GDR          pins ADDED TO this new net
-                                 J5.2           Q1.1           R3.2           
+                                 J1.2           Q1.1           R2.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins ADDED TO this new net
-                                 BT1.NP1        C2.1           C7.1           
-                                 C9.1           C11.1          C12.1          
-                                 D1.1           J1.1           J3.1           
-                                 J4.1           PS1.2          R2.1           
-                                 R3.1           U4.14          U4.32          
-                                 U4.38          
+                                 BT1.2          BT2.2          C2.1           
+                                 C3.1           C4.1           C5.1           
+                                 C6.1           C7.1           C8.1           
+                                 C9.1           C10.1          C11.1          
+                                 C12.1          D1.1           J1.8           
+                                 J1.17          J2.1           J3.1           
+                                 J5.1           R2.1           R3.1           
+                                 U1.14          U1.32          U1.38          
+                                 U2.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N09940       pins ADDED TO this new net
                                  C1.2           D3.2           L1.2           
@@ -50,74 +53,75 @@
                                  C1.1           D1.2           D2.1           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N26834       pins ADDED TO this new net
-                                 C10.2          J5.24          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N27155       pins ADDED TO this new net
-                                 C8.2           J5.22          
+                                 C10.2          J1.24          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N27155       pins ADDED TO this new net
+                                 C9.2           J1.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N27189       pins ADDED TO this new net
-                                 C6.2           J5.20          
+                                 C8.2           J1.20          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N27231       pins ADDED TO this new net
-                                 C5.2           J5.18          
+                                 C7.2           J1.18          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N27307       pins ADDED TO this new net
-                                 C3.2           J5.5           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N27385       pins ADDED TO this new net
-                                 C3.1           C4.1           C5.1           
-                                 C6.1           C8.1           C10.1          
-                                 J5.8           J5.17          
+                                 C3.2           J1.5           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N33521       pins ADDED TO this new net
-                                 J2.1           SW1.2          
+                                 J4.1           SW1.2          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N36276       pins ADDED TO this new net
-                                 J2.2           S1.2           
+                                 J4.2           SW2.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N635240      pins ADDED TO this new net
+                                 BT1.1          D4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N670880      pins ADDED TO this new net
+                                 BT2.1          D5.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   RESE         pins ADDED TO this new net
-                                 J5.3           Q1.2           R2.2           
+                                 J1.3           Q1.2           R3.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   RESET        pins ADDED TO this new net
-                                 J5.10          R1.2           U4.34          
+                                 J1.10          R1.2           U1.34          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SCL          pins ADDED TO this new net
-                                 J4.2           J5.13          U4.30          
+                                 J1.13          J3.2           U1.30          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SDA          pins ADDED TO this new net
-                                 J4.3           J5.14          U4.37          
+                                 J1.14          J3.3           U1.37          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VCC          pins ADDED TO this new net
-                                 C11.2          PS1.1          PS1.3          
-                                 S1.3           
+                                 C11.2          SW2.3          U2.1           
+                                 U2.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VGH          pins ADDED TO this new net
-                                 C7.2           D3.1           J5.21          
+                                 C5.2           D3.1           J1.21          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VGL          pins ADDED TO this new net
-                                 C9.2           D2.2           J5.23          
+                                 C2.2           D2.2           J1.23          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BATTERY_HOLDER_30212_2 X CR2032
+ BATTERY_HOLDER_1_30212_BATTERY_
  CON2_GU-TERMINAL2-200_EXT POWER
  CON3_GU-MOLEX3_VOLT TP
  CON6_GU-MOLEX6_SPI TP
@@ -141,55 +145,59 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1                 BATTERY_HOLDER_30212_2 X CR2032 
+ BT1                 BATTERY_HOLDER_1_30212_BATTERY_ 
+ BT2                 BATTERY_HOLDER_1_30212_BATTERY_ 
  C1                  C_GU-C0603_1U         
- C2                  C_GU-C0603_4.7U       
+ C2                  C_GU-C0603_1U / 50V   
  C3                  C_GU-C0603_1U / 25V   
- C4                  C_GU-C0603_1U / 25V   
- C5                  C_GU-C0603_1U / 25V   
+ C4                  C_GU-C0603_4.7U       
+ C5                  C_GU-C0603_1U / 50V   
  C6                  C_GU-C0603_1U / 25V   
- C7                  C_GU-C0603_1U / 50V   
+ C7                  C_GU-C0603_1U / 25V   
  C8                  C_GU-C0603_1U / 25V   
- C9                  C_GU-C0603_1U / 50V   
+ C9                  C_GU-C0603_1U / 25V   
  C10                 C_GU-C0603_1U / 25V   
  C11                 C_GU-C0603_1U         
  C12                 C_GU-C0603_1U         
  D1                  MBR0530T1_SOD3716X135N_MBR0530T 
  D2                  MBR0530T1_SOD3716X135N_MBR0530T 
  D3                  MBR0530T1_SOD3716X135N_MBR0530T 
- J1                  CON2_GU-TERMINAL2-200_EXT POWER 
- J2                  JUMPER_GU-JUMPER2_AMMETER TP 
- J3                  CON3_GU-MOLEX3_VOLT TP 
- J4                  CON6_GU-MOLEX6_SPI TP 
- J5                  SFV24R-4STE1HLF_SFV24R4STE1HLF_ 
+ D4                  MBR0530T1_SOD3716X135N_MBR0530T 
+ D5                  MBR0530T1_SOD3716X135N_MBR0530T 
+ J1                  SFV24R-4STE1HLF_SFV24R4STE1HLF_ 
+ J2                  CON3_GU-MOLEX3_VOLT TP 
+ J3                  CON6_GU-MOLEX6_SPI TP 
+ J4                  JUMPER_GU-JUMPER2_AMMETER TP 
+ J5                  CON2_GU-TERMINAL2-200_EXT POWER 
  L1                  L_NRH2412T2R2MNGH_10UH 
- PS1                 MIC5317-3.3YM5-TR_SOT95P280X100 
  Q1                  SI1308EDL-T1-BE3_SOT65P210X110- 
  R1                  R_GU-R0805_100K       
- R2                  R_GU-R0805_3R         
- R3                  R_GU-R0805_10K        
- S1                  SSSS213100_SSSS213100_SSSS21310 
+ R2                  R_GU-R0805_10K        
+ R3                  R_GU-R0805_3R         
  SW1                 SW SPDT_GU-SW-SLIDE-SPDT_POWER 
- U4                  ESP32-DEVKITC_ESP32-DEVKITC_ESP 
+ SW2                 SSSS213100_SSSS213100_SSSS21310 
+ U1                  ESP32-DEVKITC_ESP32-DEVKITC_ESP 
+ U2                  MIC5317-3.3YM5-TR_SOT95P280X100 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1.NP1                        PRIM_FILE      .\pstchip.dat
+ BT1.2                          PRIM_FILE      .\pstchip.dat
+ BT2.2                          PRIM_FILE      .\pstchip.dat
  C1.2                           PRIM_FILE      .\pstchip.dat
  C2.2                           PRIM_FILE      .\pstchip.dat
  C3.2                           PRIM_FILE      .\pstchip.dat
@@ -205,36 +213,38 @@
  D1.1                           PRIM_FILE      .\pstchip.dat
  D2.1                           PRIM_FILE      .\pstchip.dat
  D3.1                           PRIM_FILE      .\pstchip.dat
- J1.2                           PRIM_FILE      .\pstchip.dat
- J2.2                           PRIM_FILE      .\pstchip.dat
- J3.3                           PRIM_FILE      .\pstchip.dat
- J4.6                           PRIM_FILE      .\pstchip.dat
- J5.9                           PRIM_FILE      .\pstchip.dat
+ D4.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J2.3                           PRIM_FILE      .\pstchip.dat
+ J3.6                           PRIM_FILE      .\pstchip.dat
+ J4.2                           PRIM_FILE      .\pstchip.dat
+ J5.2                           PRIM_FILE      .\pstchip.dat
  L1.2                           PRIM_FILE      .\pstchip.dat
- PS1.5                          PRIM_FILE      .\pstchip.dat
  Q1.2                           PRIM_FILE      .\pstchip.dat
  R1.2                           PRIM_FILE      .\pstchip.dat
  R2.2                           PRIM_FILE      .\pstchip.dat
  R3.2                           PRIM_FILE      .\pstchip.dat
- S1.3                           PRIM_FILE      .\pstchip.dat
  SW1.3                          PRIM_FILE      .\pstchip.dat
- U4.4                           PRIM_FILE      .\pstchip.dat
+ SW2.3                          PRIM_FILE      .\pstchip.dat
+ U1.4                           PRIM_FILE      .\pstchip.dat
+ U2.5                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  C:.../Electronics Projects/TDP4/Prototype/allegro/prototype_empty.brd       |
-|                                                    Wed Jan 19 13:58:51 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
+|                                                    Thu Jan 27 13:41:30 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      96                                        |
+|       Nets changed          :     101                                        |
 |       Comp definitions added:      20                                        |
-|       Components added      :      30                                        |
-|       Slot property added   :      30                                        |
+|       Components added      :      33                                        |
+|       Slot property added   :      33                                        |
 |                                                                              |
-|   Total ECO changes reported:     176                                        |
+|   Total ECO changes reported:     187                                        |
 |------------------------------------------------------------------------------|
