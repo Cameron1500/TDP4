@@ -3,7 +3,7 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -35,7 +35,7 @@
                                  J1.2           Q1.1           R2.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins ADDED TO this new net
-                                 BT1.2          BT2.2          C2.1           
+                                 BT1.NP1        BT2.NP1        C2.1           
                                  C3.1           C4.1           C5.1           
                                  C6.1           C7.1           C8.1           
                                  C9.1           C10.1          C11.1          
@@ -59,7 +59,7 @@
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -83,11 +83,11 @@
   N36276       pins ADDED TO this new net
                                  J4.2           SW2.2          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N635240      pins ADDED TO this new net
-                                 BT1.1          D4.2           
+  N72588       pins ADDED TO this new net
+                                 BT2.1          BT2.2          D5.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N670880      pins ADDED TO this new net
-                                 BT2.1          D5.2           
+  N72605       pins ADDED TO this new net
+                                 BT1.1          BT1.2          D4.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   RESE         pins ADDED TO this new net
                                  J1.3           Q1.2           R3.2           
@@ -115,13 +115,13 @@
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BATTERY_HOLDER_1_30212_BATTERY_
+ BATTERY_HOLDER_9_30212_BATTERY_
  CON2_GU-TERMINAL2-200_EXT POWER
  CON3_GU-MOLEX3_VOLT TP
  CON6_GU-MOLEX6_SPI TP
@@ -137,7 +137,7 @@
  R_GU-R0805_3R
  R_GU-R0805_10K
  R_GU-R0805_100K
- SFV24R-4STE1HLF_SFV24R4STE1HLF_
+ SFV24R-4STE1HLF_0_AMPHENOL_SFV2
  SI1308EDL-T1-BE3_SOT65P210X110-
  SSSS213100_SSSS213100_SSSS21310
  SW SPDT_GU-SW-SLIDE-SPDT_POWER
@@ -146,14 +146,14 @@
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1                 BATTERY_HOLDER_1_30212_BATTERY_ 
- BT2                 BATTERY_HOLDER_1_30212_BATTERY_ 
+ BT1                 BATTERY_HOLDER_9_30212_BATTERY_ 
+ BT2                 BATTERY_HOLDER_9_30212_BATTERY_ 
  C1                  C_GU-C0603_1U         
  C2                  C_GU-C0603_1U / 50V   
  C3                  C_GU-C0603_1U / 25V   
@@ -171,7 +171,7 @@
  D3                  MBR0530T1_SOD3716X135N_MBR0530T 
  D4                  MBR0530T1_SOD3716X135N_MBR0530T 
  D5                  MBR0530T1_SOD3716X135N_MBR0530T 
- J1                  SFV24R-4STE1HLF_SFV24R4STE1HLF_ 
+ J1                  SFV24R-4STE1HLF_0_AMPHENOL_SFV2 
  J2                  CON3_GU-MOLEX3_VOLT TP 
  J3                  CON6_GU-MOLEX6_SPI TP 
  J4                  JUMPER_GU-JUMPER2_AMMETER TP 
@@ -190,14 +190,14 @@
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1.2                          PRIM_FILE      .\pstchip.dat
- BT2.2                          PRIM_FILE      .\pstchip.dat
+ BT1.NP1                        PRIM_FILE      .\pstchip.dat
+ BT2.NP1                        PRIM_FILE      .\pstchip.dat
  C1.2                           PRIM_FILE      .\pstchip.dat
  C2.2                           PRIM_FILE      .\pstchip.dat
  C3.2                           PRIM_FILE      .\pstchip.dat
@@ -234,17 +234,17 @@
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
 |  H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd                        |
-|                                                    Thu Jan 27 13:45:55 2022  |
+|                                                    Fri Jan 28 12:27:56 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :     101                                        |
+|       Nets changed          :     103                                        |
 |       Comp definitions added:      20                                        |
 |       Components added      :      33                                        |
 |       Slot property added   :      33                                        |
 |                                                                              |
-|   Total ECO changes reported:     187                                        |
+|   Total ECO changes reported:     189                                        |
 |------------------------------------------------------------------------------|

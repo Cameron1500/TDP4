@@ -1,16 +1,19 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-27-2022 at 13:41:29}
-primitive 'BATTERY_HOLDER_1_30212_BATTERY_';
+{ Using PSTWRITER 17.2.0 d001Jan-28-2022 at 12:26:43}
+primitive 'BATTERY_HOLDER_9_30212_BATTERY_';
   pin
     '1':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
+      PINUSE='POWER';
+    'NP1':
+      PIN_NUMBER='(NP1)';
+      PINUSE='POWER';
     '2':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
+      PINUSE='POWER';
   end_pin;
   body
-    PART_NAME='Battery_Holder_1';
+    PART_NAME='Battery_Holder_9';
     JEDEC_TYPE='30212';
     VALUE='Battery_Holder';
   end_body;
@@ -90,7 +93,7 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     VALUE='MBR0530T1';
   end_body;
 end_primitive;
-primitive 'SFV24R-4STE1HLF_SFV24R4STE1HLF_';
+primitive 'SFV24R-4STE1HLF_AMPHENOL_SFV24R';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -173,7 +176,7 @@ primitive 'SFV24R-4STE1HLF_SFV24R4STE1HLF_';
   end_pin;
   body
     PART_NAME='SFV24R-4STE1HLF';
-    JEDEC_TYPE='SFV24R4STE1HLF';
+    JEDEC_TYPE='amphenol_sfv24r-4ste1hlf';
     VALUE='SFV24R-4STE1HLF';
   end_body;
 end_primitive;

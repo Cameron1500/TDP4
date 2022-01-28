@@ -62,7 +62,7 @@
     (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
-    (DRC_Create_Warnings "FALSE")
+    (DRC_Create_Warnings "TRUE")
     (DRC_View_Output "FALSE")
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
@@ -225,11 +225,17 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "h:\github\tdp4\prototype\prototype.dsn")
-      (Path "Design Resources" "h:\github\tdp4\prototype\prototype.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\prototype.dsn")
+      (Path "Design Resources" ".\prototype.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "h:\github\tdp4\prototype\lib\tdp.olb")
+      (Path "Design Resources" "Library" ".\lib\3021-2.olb")
+      (Path "Design Resources" "Library" ".\lib\nrh2412t100mngh.olb")
+      (Path "Design Resources" "Library" ".\lib\sfv24r-4ste1hlf.olb")
+      (Path "Design Resources" "Library" ".\lib\si1308edl-t1-be3.olb")
+      (Path "Design Resources" "Library" ".\lib\ssss213100.olb")
+      (Path "Design Resources" "Library" ".\lib\tdp.olb")
+      (Path "Design Resources" "Library" ".\lib\mbr0530t1g.olb")
+      (Path "Design Resources" "Library" ".\lib\mic5317-3.3ym5-tr.olb")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
@@ -241,8 +247,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 26 1662 26 485")
-        (Scroll "-372 0")
-        (Zoom "87")
+        (Scroll "0 199")
+        (Zoom "174")
         (Occurrence "/"))
       (Path "H:\GITHUB\TDP4\PROTOTYPE\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")

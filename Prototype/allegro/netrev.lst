@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : prototype_empty.brd                           )
 (    Software Version : 17.2S055                                      )
-(    Date/Time        : Thu Jan 27 13:45:55 2022                      )
+(    Date/Time        : Fri Jan 28 12:27:56 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -31,71 +31,40 @@ Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstchip.dat
 Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxprt.dat 
    Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxprt.dat (00:00:00.01)
 Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat 
-   Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.01)
+   Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.02)
 
 ------ Oversights/Warnings/Errors ------
 
 
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol '30212' used by RefDes BT1 for device 'BATTERY_HOLDER_1_30212_BATTERY_': WARNING(SPMHUT-127): Could not find padstack C277_5_H185. [help]
-
-#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SOD3716X135N' used by RefDes D1 for device 'MBR0530T1_SOD3716X135N_MBR0530T': WARNING(SPMHUT-127): Could not find padstack R115_80. [help]
-
-#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SFV24R4STE1HLF' used by RefDes J1 for device 'SFV24R-4STE1HLF_SFV24R4STE1HLF_': WARNING(SPMHUT-127): Could not find padstack R140_30. [help]
-
-#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'NRH2412T2R2MNGH' used by RefDes L1 for device 'L_NRH2412T2R2MNGH_10UH' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old symbol
-
-#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SOT65P210X110-3N' used by RefDes Q1 for device 'SI1308EDL-T1-BE3_SOT65P210X110-': WARNING(SPMHUT-127): Could not find padstack R105_50. [help]
-
-#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SSSS213100' used by RefDes SW2 for device 'SSSS213100_SSSS213100_SSSS21310': WARNING(SPMHUT-127): Could not find padstack C130_H80. [help]
-
-#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-337): Unable to load symbol 'SOT95P280X100-5N' used by RefDes U2 for device 'MIC5317-3.3YM5-TR_SOT95P280X100': WARNING(SPMHUT-127): Could not find padstack R105_60. [help]
-
 ------ Library Paths ------
 MODULEPATH =  . 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/modules 
+           c:/cadence/spb_17.2/share/local/pcb/modules 
 
-PSMPATH =  H:/GitHub/TDP4/Footprints/ 
-           P:/SCIENG/ENG/allegro/PCB_LIB/symbols/ 
-           . 
-           symbols 
-           .. 
-           ../symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
-
-PADPATH =  P:/SCIENG/ENG/allegro/PCB_LIB/padstacks/ 
+PSMPATH =  Q:/allegro/PCB_LIB/symbols/ 
            H:/GitHub/TDP4/Footprints/ 
            . 
            symbols 
            .. 
            ../symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/padstacks 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           c:/cadence/spb_17.2/share/local/pcb/symbols 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  Q:/allegro/PCB_LIB/padstacks/ 
+           H:/GitHub/TDP4/Footprints/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.2/share/local/pcb/padstacks 
+           c:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jan 27 13:45:55 2022
+netrev run on Jan 28 12:27:56 2022
    DESIGN NAME : 'PROTOTYPE'
    PACKAGING ON May 11 2019 05:12:43
 
@@ -118,8 +87,8 @@ netrev run on Jan 27 13:45:55 2022
 
  No error detected
  No oversight detected
-  7 warnings detected
+ No warning detected
 
-cpu time      0:03:07
+cpu time      0:03:51
 elapsed time  0:00:02
 

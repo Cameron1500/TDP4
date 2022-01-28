@@ -1,16 +1,17 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-27-2022 at 13:32:27}
-primitive 'BATTERY_HOLDER_1_30212_BATTERY_';
+{ Using PSTWRITER 17.2.0 d001Jan-28-2022 at 12:07:56}
+primitive 'BATTERY_HOLDER_8_30212_BATTERY_';
   pin
-    '1':
+    '1#1':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
+      PINUSE='POWER';
+    'NP1':
+      PIN_NUMBER='(NP1)';
+      PINUSE='POWER';
   end_pin;
   body
-    PART_NAME='Battery_Holder_1';
+    POWER_PINS='(1:2)';
+    PART_NAME='Battery_Holder_8';
     JEDEC_TYPE='30212';
     VALUE='Battery_Holder';
   end_body;
