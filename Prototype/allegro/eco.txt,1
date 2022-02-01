@@ -2,73 +2,107 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev1.brd                         |
-|                                                    Fri Jan 28 12:13:25 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev2.brd                         |
+|                                                    Tue Feb 01 10:56:51 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  1            pins MOVED FROM this net (to net name listed on right)
-                                 BT1.2                          
-                                                                         N72605
-                                 BT2.2                          
-                                                                         N72588
+  3V3          pins MOVED FROM this net (to net name listed on right)
+                                 J1.15           12.3001  9.3501
+                                                                          RESET
+                                 J1.16           12.3001  9.8499
+                                                                           BUSY
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N635240      pins MOVED FROM this net (to net name listed on right)
-                                 BT1.1                          
-                                                                         N72605
-                                 D4.2                           
-                                                                         N72605
+  BUSY         pins MOVED FROM this net (to net name listed on right)
+                                 J1.9            12.3001  6.3501
+                                                                            3V3
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N670880      pins MOVED FROM this net (to net name listed on right)
-                                 BT2.1                          
-                                                                         N72588
-                                 D5.2                           
-                                                                         N72588
+  DC           pins MOVED FROM this net (to net name listed on right)
+                                 J1.11           12.3001  7.3501
+                                                                            SDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  E-INK_CS     pins MOVED FROM this net (to net name listed on right)
+                                 J1.12           12.3001  7.8499
+                                                                            SCL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GDR          pins MOVED FROM this net (to net name listed on right)
+                                 J1.2            12.3001  2.8499
+                                                                            VGL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N26834       pins DELETED FROM this net (pin now not on any net)
+                                 J1.24           12.3001 13.8499
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.1            12.3001  2.3501
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27155       pins MOVED FROM this net (to net name listed on right)
+                                 J1.22           12.3001 12.8499
+                                                                           RESE
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27189       pins MOVED FROM this net (to net name listed on right)
+                                 J1.20           12.3001 11.8499
+                                                                         N27307
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27231       pins DELETED FROM this net (pin now not on any net)
+                                 J1.18           12.3001 10.8499
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.7            12.3001  5.3501
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27307       pins MOVED FROM this net (to net name listed on right)
+                                 J1.5            12.3001  4.3501
+                                                                         N27189
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev1.brd                         |
-|                                                    Fri Jan 28 12:13:25 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev2.brd                         |
+|                                                    Tue Feb 01 10:56:51 2022  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BATTERY_HOLDER_9_30212_BATTERY_
+  RESE         pins MOVED FROM this net (to net name listed on right)
+                                 J1.3            12.3001  3.3501
+                                                                         N27155
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins MOVED FROM this net (to net name listed on right)
+                                 J1.10           12.3001  6.8499
+                                                                            3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins MOVED FROM this net (to net name listed on right)
+                                 J1.13           12.3001  8.3501
+                                                                       E-INK_CS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins MOVED FROM this net (to net name listed on right)
+                                 J1.14           12.3001  8.8499
+                                                                             DC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VGH          pins DELETED FROM this net (pin now not on any net)
+                                 J1.21           12.3001 12.3500
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.4            12.3001  3.8499
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VGL          pins MOVED FROM this net (to net name listed on right)
+                                 J1.23           12.3001 13.3500
+                                                                            GDR
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev1.brd                         |
-|                                                    Fri Jan 28 12:13:25 2022  |
+|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev2.brd                         |
+|                                                    Tue Feb 01 10:56:51 2022  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1                 BATTERY_HOLDER_9_30212_BATTERY_                 BATTERY_HOLDER_8_30212_BATTERY_
- BT2                 BATTERY_HOLDER_9_30212_BATTERY_                 BATTERY_HOLDER_8_30212_BATTERY_
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  H:/GitHub/TDP4/Prototype/allegro/prototype_rev1.brd                         |
-|                                                    Fri Jan 28 12:13:25 2022  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- BT1.NP1                        PRIM_FILE      .\pstchip.dat
- BT2.NP1                        PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|       Nets changed          :       6                                        |
-|       Comp definitions added:       1                                        |
-|       Components changed    :       2                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :      20                                        |
 |                                                                              |
-|   Total ECO changes reported:      11                                        |
+|   Total ECO changes reported:      20                                        |
 |------------------------------------------------------------------------------|

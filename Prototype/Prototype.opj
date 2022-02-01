@@ -47,7 +47,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "H:\GitHub\TDP4\Prototype\allegro\prototype_rev1.brd")
+       "H:\GitHub\TDP4\Prototype\allegro\prototype_rev3.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -58,7 +58,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "H:\GitHub\TDP4\Prototype\allegro\prototype_empty.brd")
+       "H:\GitHub\TDP4\Prototype\allegro\prototype_rev3.brd")
     (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -247,8 +247,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 26 1662 26 485")
-        (Scroll "-2 421")
-        (Zoom "156")
+        (Scroll "-537 -3")
+        (Zoom "76")
         (Occurrence "/"))
       (Path "H:\GITHUB\TDP4\PROTOTYPE\PROTOTYPE.DSN")
       (Schematic "SCHEMATIC1")

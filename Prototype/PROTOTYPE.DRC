@@ -1,4 +1,4 @@
-Date and Time : 01/27/22 16:29:43
+Date and Time : 02/01/22 11:44:47
 
 --------------------------------------------------
 Checking Schematic: SCHEMATIC1
@@ -41,6 +41,10 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? BT2,NP1  NP1  GND
+                    SCHEMATIC1, PAGE1  (5.30, 6.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? BT1,NP1  NP1  GND
+                    SCHEMATIC1, PAGE1  (4.40, 6.20) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference

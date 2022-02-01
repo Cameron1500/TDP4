@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : prototype_empty.brd                           )
+(    Drawing          : prototype_rev3.brd                            )
 (    Software Version : 17.2S055                                      )
-(    Date/Time        : Fri Jan 28 12:27:56 2022                      )
+(    Date/Time        : Tue Feb 01 11:45:08 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'H:\GITHUB\TDP4\PROTOTYPE\allegro'
 Design Directory:            'H:/GitHub/TDP4/Prototype/allegro'
-Old design name:             'H:/GitHub/TDP4/Prototype/allegro/prototype_empty.brd'
-New design name:             'H:/GitHub/TDP4/Prototype/allegro/prototype_rev1.brd'
+Old design name:             'H:/GitHub/TDP4/Prototype/allegro/prototype_rev3.brd'
+New design name:             'H:/GitHub/TDP4/Prototype/allegro/prototype_rev3.brd'
 
-CmdLine: netrev.exe -y 1 -i H:\GITHUB\TDP4\PROTOTYPE\allegro H:\GitHub\TDP4\Prototype\allegro\prototype_empty.brd H:\GitHub\TDP4\Prototype\allegro\prototype_rev1.brd
+CmdLine: netrev.exe -y 1 -i H:\GITHUB\TDP4\PROTOTYPE\allegro H:\GitHub\TDP4\Prototype\allegro\prototype_rev3.brd H:\GitHub\TDP4\Prototype\allegro\prototype_rev3.brd
 
 ------ Preparing to read pst files ------
 
@@ -31,7 +31,7 @@ Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstchip.dat
 Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxprt.dat 
    Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxprt.dat (00:00:00.01)
 Starting to read H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat 
-   Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.02)
+   Finished reading H:/GITHUB/TDP4/PROTOTYPE/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -41,7 +41,6 @@ MODULEPATH =  .
            c:/cadence/spb_17.2/share/local/pcb/modules 
 
 PSMPATH =  Q:/allegro/PCB_LIB/symbols/ 
-           H:/GitHub/TDP4/Footprints/ 
            . 
            symbols 
            .. 
@@ -51,7 +50,6 @@ PSMPATH =  Q:/allegro/PCB_LIB/symbols/
            c:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
 
 PADPATH =  Q:/allegro/PCB_LIB/padstacks/ 
-           H:/GitHub/TDP4/Footprints/ 
            . 
            symbols 
            .. 
@@ -64,7 +62,7 @@ PADPATH =  Q:/allegro/PCB_LIB/padstacks/
 ------ Summary Statistics ------
 
 
-netrev run on Jan 28 12:27:56 2022
+netrev run on Feb 1 11:45:08 2022
    DESIGN NAME : 'PROTOTYPE'
    PACKAGING ON May 11 2019 05:12:43
 
@@ -89,6 +87,6 @@ netrev run on Jan 28 12:27:56 2022
  No oversight detected
  No warning detected
 
-cpu time      0:03:51
+cpu time      0:02:47
 elapsed time  0:00:02
 
