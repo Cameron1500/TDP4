@@ -1,1 +1,1 @@
-prototype_rev1.brd
+prototype_rev2.brd

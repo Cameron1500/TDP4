@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : prototype_rev1.brd                            )
+(    Drawing          : prototype_rev2.brd                            )
 (    Software Version : 17.2S055                                      )
-(    Date/Time        : Fri Jan 28 12:37:51 2022                      )
+(    Date/Time        : Tue Feb 01 10:32:42 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  36
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
