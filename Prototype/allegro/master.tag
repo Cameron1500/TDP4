@@ -1,1 +1,1 @@
-prototype_rev4.brd
+prototype_board2_rev1.brd

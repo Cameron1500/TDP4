@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Feb-01-2022 at 11:45:07 }
+{ Using PSTWRITER 17.2.0 d001Feb-15-2022 at 19:55:33 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.37" ignored for U1: SCHEMATIC1, PAGE1 (1.10, 4.40). Connecting pin to net "BUSY".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "U1.31" ignored for U1: SCHEMATIC1, PAGE1 (1.10, 4.40). Connecting pin to net "SDA".
@@ -12,11 +12,11 @@
 #10 WARNING(ORCAP-36006): Part Name "MIC5317-3.3YM5-TR_SOT95P280X100-5N_MIC5317-3.3YM5-TR" is renamed to "MIC5317-3.3YM5-TR_SOT95P280X100".
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... H:\GITHUB\TDP4\PROTOTYPE\allegro/pstchip.dat
+Loading... C:\USERS\CAMER\DOCUMENTS\GITHUB\PROTOTYPE\allegro/pstchip.dat
 
-Loading... H:\GITHUB\TDP4\PROTOTYPE\allegro/pstchip.dat
+Loading... C:\USERS\CAMER\DOCUMENTS\GITHUB\PROTOTYPE\allegro/pstchip.dat
 
-Loading... H:\GITHUB\TDP4\PROTOTYPE\allegro/pstchip.dat
+Loading... C:\USERS\CAMER\DOCUMENTS\GITHUB\PROTOTYPE\allegro/pstxprt.dat
 
-Loading... H:\GITHUB\TDP4\PROTOTYPE\allegro/pstxnet.dat
+Loading... C:\USERS\CAMER\DOCUMENTS\GITHUB\PROTOTYPE\allegro/pstxnet.dat
 packaging the design view...

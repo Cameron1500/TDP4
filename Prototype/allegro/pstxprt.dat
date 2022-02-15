@@ -1,9 +1,9 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Feb-01-2022 at 11:45:08 }
+{ Using PSTWRITER 17.2.0 d001Feb-15-2022 at 19:55:34 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PROTOTYPE';
- POST_TIME='May 11 2019 05:12:43';
+ POST_TIME='Apr 15 2018 17:30:46';
  SOURCE_TOOL='CAPTURE_WRITER';
 END_DIRECTIVES;
 
@@ -201,9 +201,9 @@ PART_NAME
  J1 'SFV24R-4STE1HLF_0_AMPHENOL_SFV2':;
 
 SECTION_NUMBER 1
- '@PROTOTYPE.SCHEMATIC1(SCH_1):INS74323@PROTOTYPE.SFV24R-4STE1HLF_0.NORMAL(CHIPS)':
- C_PATH='@prototype.schematic1(sch_1):ins74323@prototype.\sfv24r-4ste1hlf_0.normal\(chips)',
- P_PATH='@prototype.schematic1(sch_1):page1_ins74323@prototype.\sfv24r-4ste1hlf_0.normal\(chips)',
+ '@PROTOTYPE.SCHEMATIC1(SCH_1):INS77111@PROTOTYPE.SFV24R-4STE1HLF_0.NORMAL(CHIPS)':
+ C_PATH='@prototype.schematic1(sch_1):ins77111@prototype.\sfv24r-4ste1hlf_0.normal\(chips)',
+ P_PATH='@prototype.schematic1(sch_1):page1_ins77111@prototype.\sfv24r-4ste1hlf_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
