@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : prototype_board2_rev1.brd                     )
 (    Software Version : 17.2S038                                      )
-(    Date/Time        : Tue Feb 15 20:40:56 2022                      )
+(    Date/Time        : Thu Feb 17 16:56:47 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -14,7 +14,7 @@
 Ripup etch:                  No
 Ripup delete first segment:  No
 Ripup retain bondwire:       No
-Ripup symbols:               Always
+Ripup symbols:               Never
 Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:/Users/Camer/Documents/GitHub/Prototype/allegro'
@@ -22,12 +22,12 @@ Design Directory:            'C:/Users/Camer/Documents/GitHub/Prototype/allegro'
 Old design name:             'C:/Users/Camer/Documents/GitHub/Prototype/allegro/prototype_board2_rev1.brd'
 New design name:             'C:/Users/Camer/Documents/GitHub/Prototype/allegro/prototype_board2_rev1.brd'
 
-CmdLine: netrev -$ -i C:/Users/Camer/Documents/GitHub/Prototype/allegro -y 1 -h -q netrev_constraint_report.xml C:/Users/Camer/Documents/GitHub/Prototype/allegro/#Taaaaal03200.tmp
+CmdLine: netrev -$ -i C:/Users/Camer/Documents/GitHub/Prototype/allegro -y 3 -h -q netrev_constraint_report.xml C:/Users/Camer/Documents/GitHub/Prototype/allegro/#Taaaaag21876.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstchip.dat 
-   Finished reading C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstchip.dat (00:00:00.02)
+   Finished reading C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstchip.dat (00:00:00.03)
 Starting to read C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstxprt.dat 
    Finished reading C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/Camer/Documents/GitHub/Prototype/allegro/pstxnet.dat 
@@ -60,7 +60,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Feb 15 20:40:56 2022
+netrev run on Feb 17 16:56:47 2022
    DESIGN NAME : 'PROTOTYPE'
    PACKAGING ON Apr 15 2018 17:30:46
 
@@ -86,5 +86,5 @@ netrev run on Feb 15 20:40:56 2022
  No warning detected
 
 cpu time      0:00:23
-elapsed time  0:00:01
+elapsed time  0:00:00
 

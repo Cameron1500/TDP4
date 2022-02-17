@@ -1,0 +1,152 @@
+\t (00:00:03) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Feb 17 17:05:09 2022
+\t (00:00:03)         Host=CAMERON-LAPTOP User=Camer Pid=21600 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 30212
+\d (00:00:06) Design opened: C:/Users/Camer/Documents/GitHub/Footprints/30212.dra
+\i (00:00:06) trapsize 2139
+\i (00:00:06) trapsize 2247
+\i (00:00:06) trapsize 2139
+\i (00:00:06) trapsize 1909
+\i (00:00:06) trapsize 1909
+\i (00:01:13) create device 
+\i (00:01:15) setwindow form.crdevice
+\i (00:01:15) FORM crdevice cancel  
+   (00:01:15) Loading cmds.cxt 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) open 
+\i (00:01:32) fillin "ESP32-DevKitC.dra"
+\t (00:01:32) Opening existing design...
+\i (00:01:32) trapsize 21
+\i (00:01:32) trapsize 22
+\i (00:01:32) trapsize 21
+\i (00:01:32) trapsize 23
+\d (00:01:32) Design opened: C:/Users/Camer/Documents/GitHub/Footprints/ESP32-DevKitC.dra
+\i (00:01:32) trapsize 22695
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -12.873 23.122
+\i (00:01:33) trapsize 45
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -12.873 23.085
+\i (00:01:33) trapsize 90
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -12.872 23.068
+\i (00:01:33) trapsize 180
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -12.872 22.960
+\i (00:01:33) trapsize 361
+\i (00:01:33) zoom out 1 
+\i (00:01:33) setwindow pcb
+\i (00:01:33) zoom out -12.873 22.960
+\i (00:01:33) trapsize 722
+\i (00:01:35) open 
+\i (00:01:36) fillin "30212.dra"
+\t (00:01:36) Opening existing design...
+\i (00:01:36) trapsize 1909
+\i (00:01:37) trapsize 1994
+\i (00:01:37) trapsize 1909
+\i (00:01:37) trapsize 2053
+\d (00:01:37) Design opened: C:/Users/Camer/Documents/GitHub/Footprints/30212.dra
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 13.0378 11.7283
+\i (00:01:40) trapsize 4105
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 13.0377 11.4819
+\i (00:01:40) trapsize 8211
+\i (00:01:40) zoom out 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 13.2020 11.4819
+\i (00:01:40) trapsize 16421
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 25.1310 7.0675
+\i (00:01:41) trapsize 8211
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 25.1310 6.9033
+\i (00:01:41) trapsize 4105
+\i (00:01:42) color192 
+\i (00:01:44) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:01:46) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:01:46) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:01:49) zoom out 1 
+\i (00:01:49) setwindow pcb
+\i (00:01:49) zoom out 8.2991 -0.8968
+\i (00:01:49) trapsize 8211
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 2.5517 -1.0610
+\i (00:01:53) trapsize 4105
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 2.5517 -1.0610
+\i (00:01:53) trapsize 2053
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 2.5517 -1.0610
+\i (00:01:53) trapsize 1026
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 2.5518 -1.0610
+\i (00:01:53) trapsize 513
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 2.5518 -1.0610
+\i (00:01:54) trapsize 1026
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out 2.4696 -1.6151
+\i (00:01:54) trapsize 2053
+\i (00:02:15) enved 
+\i (00:02:18) setwindow form.prfedit
+\i (00:02:18) FORM prfedit treelist  Drawing 
+\i (00:02:23) FORM prfedit cancel  
+\i (00:02:26) setwindow pcb
+\i (00:02:26) text edit 
+\i (00:02:26) pick grid 1.8948 6.6366
+\t (00:02:26) last pick:  1.9050 6.3500
+\e (00:02:26) ERROR(SPMHA1-441): Text not found.
+\i (00:02:28) setwindow pcb
+\i (00:02:28) pick grid 2.0180 5.3640
+\t (00:02:28) last pick:  1.9050 5.0800
+\e (00:02:28) ERROR(SPMHA1-441): Text not found.
+\i (00:02:29) setwindow pcb
+\i (00:02:29) pick grid -0.2400 0.9712
+\t (00:02:29) last pick:  0.0000 1.2700
+\i (00:02:29) setwindow pcb
+\i (00:02:29) pick grid 2.3875 2.4081
+\t (00:02:29) last pick:  2.5400 2.5400
+\i (00:02:29) setwindow pcb
+\i (00:02:29) pick -0.2400 0.9712
+\e (00:02:29) ERROR(SPMHA1-441): Text not found.
+\i (00:02:30) setwindow pcb
+\i (00:02:30) pick grid 2.7570 3.3934
+\t (00:02:30) last pick:  2.5400 3.1750
+\e (00:02:30) ERROR(SPMHA1-441): Text not found.
+\i (00:02:30) setwindow pcb
+\i (00:02:30) pick grid 2.1412 5.8156
+\t (00:02:30) last pick:  1.9050 5.7150
+\e (00:02:30) ERROR(SPMHA1-441): Text not found.
+\i (00:02:30) setwindow pcb
+\i (00:02:30) pick grid 2.8801 7.0061
+\t (00:02:30) last pick:  3.1750 6.9850
+\e (00:02:30) ERROR(SPMHA1-441): Text not found.
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom out 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom out 0.3758 4.2145
+\i (00:02:32) trapsize 4105
+\i (00:02:34) save 
+\i (00:02:36) fillin yes 
+\t (00:02:36) Symbol '30212.psm' created.
+\i (00:02:37) exit 
+\t (00:02:37)     Journal end - Thu Feb 17 17:07:43 2022

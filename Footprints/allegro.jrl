@@ -1,0 +1,29 @@
+\t (00:00:03) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Thu Feb 17 17:08:38 2022
+\t (00:00:03)         Host=CAMERON-LAPTOP User=Camer Pid=3172 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 30212
+\d (00:00:06) Design opened: C:/Users/Camer/Documents/GitHub/Footprints/30212.dra
+\i (00:00:06) trapsize 4600
+\i (00:00:06) trapsize 4831
+\i (00:00:06) trapsize 4600
+\i (00:00:06) trapsize 4105
+\i (00:00:06) trapsize 4105
+\i (00:00:20) save 
+\i (00:00:22) fillin yes 
+\t (00:00:22) Symbol '30212.psm' created.
+\i (00:00:24) open 
+\i (00:00:35) fillin "C:\Users\Camer\Documents\GitHub\Prototype\allegro\prototype_board2_rev1.brd"
+\i (00:00:35) cd "C:\Users\Camer\Documents\GitHub\Prototype\allegro"
+\t (00:00:35) Opening existing design...
+\i (00:00:35) trapsize 5974
+\i (00:00:35) trapsize 6241
+\i (00:00:35) trapsize 5974
+\t (00:00:35) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:35) trapsize 6335
+\i (00:00:35) trapsize 6221
+\i (00:00:35) trapsize 6493140
+\t (00:00:35)     Journal end - Thu Feb 17 17:09:10 2022
