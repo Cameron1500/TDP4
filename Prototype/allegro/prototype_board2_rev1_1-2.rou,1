@@ -1,0 +1,23 @@
+M48
+INCH
+T01
+;EXTENTS: -5.500  -4.250  5.500   4.250   
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : C:/Users/Camer/Documents/GitHub/Prototype/allegro/prototype_board2_rev1_1-2.rou for board C:/Users/Camer/Documents/GitHub/Prototype/allegro/#Taaaaaj25364.tmp, layers TOP to BOTTOM
+%
+G90
+F1
+M16
+T01
+M16
+G00X-0013780Y0001969
+M15
+G01X-0013780Y0061024
+G01X-0001969Y0061024
+G01X-0001969Y0001969
+G01X-0013780Y0001969
+M16
+G40
+M30

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : prototype_board2_rev1.brd                     )
 (    Software Version : 17.2S038                                      )
-(    Date/Time        : Fri Feb 18 12:36:16 2022                      )
+(    Date/Time        : Thu Feb 17 19:08:12 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -32,7 +32,7 @@
  SEPARATE		NO
  SEPARATE-ROUTING	NO
  OPTIMIZE_DRILLING	YES
- ENHANCED_EXCELLON	YES
+ ENHANCED_EXCELLON	NO
  SCALE			1.000000
 
  WARNING(SPMHMF-363): Units system is being switched when generating drill output file data.

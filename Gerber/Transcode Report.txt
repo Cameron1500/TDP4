@@ -1,0 +1,65 @@
+
+
+   ---- Transcoding 'C:\Users\Camer\AppData\Local\Temp\PentaLogix\ImportZip\29e4778a-c337-4c55-8b45-3a6e9034c8b2\TOP.art' ----   Fri Feb 18 14:16:30 2022
+
+D20   --> D119
+D16   --> D120
+D21   --> D121
+D22   --> D122
+D23   --> D123
+D12   --> D124
+D10   --> D125
+D13   --> D126
+D17   --> D127
+D14   --> D128
+D24   --> D129
+D25   --> D130
+D26   --> D131
+D27   --> D132
+D28   --> D133
+D31   --> D134
+D30   --> D135
+D29   --> D136
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Camer\AppData\Local\Temp\PentaLogix\ImportZip\29e4778a-c337-4c55-8b45-3a6e9034c8b2\DesignOutline.art' ----   Fri Feb 18 14:16:30 2022
+
+D10   --> D137
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Camer\Documents\GitHub\Gerber\prototype_board2_rev1-1-2.drl' ----   Fri Feb 18 14:17:52 2022
+
+T1   --> T2
+T2   --> T3
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Camer\Documents\GitHub\Gerber\DesignOutline.art' ----   Fri Feb 18 14:19:13 2022
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\Camer\Documents\GitHub\Gerber\TOP.art' ----   Fri Feb 18 14:19:13 2022
+
+D20   --> D101
+D16   --> D102
+D21   --> D103
+D22   --> D104
+D23   --> D105
+D12   --> D106
+D10   --> D107
+D13   --> D108
+D17   --> D109
+D14   --> D110
+D24   --> D111
+D25   --> D112
+D26   --> D113
+D27   --> D114
+D28   --> D115
+D31   --> D116
+D30   --> D117
+D29   --> D118
+-----------------------------------------------------------------
