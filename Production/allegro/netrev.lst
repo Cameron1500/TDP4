@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : production_board2_rev1.brd                    )
-(    Software Version : 17.2S055                                      )
-(    Date/Time        : Fri Feb 18 16:51:35 2022                      )
+(    Drawing          : production_board1_rev3.brd                    )
+(    Software Version : 17.2S038                                      )
+(    Date/Time        : Tue Mar 08 16:05:05 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,52 +17,52 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'H:\GITHUB\TDP4\PRODUCTION\allegro'
-Design Directory:            'H:/GitHub/TDP4/Production/allegro'
-Old design name:             'H:/GitHub/TDP4/Production/allegro/production_board2_rev1.brd'
-New design name:             'H:/GitHub/TDP4/Production/allegro/production_board2_rev1.brd'
+Schematic directory:         'C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro'
+Design Directory:            'C:/Users/Camer/Documents/GitHub/Production/allegro'
+Old design name:             'C:/Users/Camer/Documents/GitHub/Production/allegro/production_board1_rev3.brd'
+New design name:             'C:/Users/Camer/Documents/GitHub/Production/allegro/production_board1_rev3.brd'
 
-CmdLine: netrev.exe -y 1 -i H:\GITHUB\TDP4\PRODUCTION\allegro H:\GitHub\TDP4\Production\allegro\production_board2_rev1.brd H:\GitHub\TDP4\Production\allegro\production_board2_rev1.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd
 
 ------ Preparing to read pst files ------
 
-Starting to read H:/GITHUB/TDP4/PRODUCTION/allegro/pstchip.dat 
-   Finished reading H:/GITHUB/TDP4/PRODUCTION/allegro/pstchip.dat (00:00:00.62)
-Starting to read H:/GITHUB/TDP4/PRODUCTION/allegro/pstxprt.dat 
-   Finished reading H:/GITHUB/TDP4/PRODUCTION/allegro/pstxprt.dat (00:00:00.08)
-Starting to read H:/GITHUB/TDP4/PRODUCTION/allegro/pstxnet.dat 
-   Finished reading H:/GITHUB/TDP4/PRODUCTION/allegro/pstxnet.dat (00:00:00.09)
+Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstchip.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstchip.dat (00:00:00.02)
+Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxprt.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxnet.dat 
+   Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/modules 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/local/pcb/padstacks 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
-           C:/Program Files/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Feb 18 16:51:34 2022
+netrev run on Mar 8 16:05:05 2022
    DESIGN NAME : 'PRODUCTION'
-   PACKAGING ON May 11 2019 05:12:43
+   PACKAGING ON Apr 15 2018 17:30:46
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -85,6 +85,6 @@ netrev run on Feb 18 16:51:34 2022
  No oversight detected
  No warning detected
 
-cpu time      0:09:40
-elapsed time  0:00:04
+cpu time      0:00:33
+elapsed time  0:00:00
 

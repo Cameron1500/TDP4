@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Feb-18-2022 at 16:51:25}
+{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 16:05:01}
 primitive 'BATTERY_HOLDER_9_30212_BATTERY_';
   pin
     '1':
@@ -48,6 +48,21 @@ primitive 'C_GU-C0603_1U / 25V';
     VALUE='1u / 25V';
   end_body;
 end_primitive;
+primitive 'C_GU-C1206_C';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='GU-C1206';
+    VALUE='C';
+  end_body;
+end_primitive;
 primitive 'C_GU-C0603_1U / 50V';
   pin
     '1':
@@ -91,6 +106,30 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     PART_NAME='MBR0530T1';
     JEDEC_TYPE='SOD3716X135N';
     VALUE='MBR0530T1';
+  end_body;
+end_primitive;
+primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
+  pin
+    'VIN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SHUTDOWN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NC/ADJ':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AP2127K-3_0.3TRG1';
+    JEDEC_TYPE='SOT95P280X100-5N';
+    VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;
 primitive 'SFV24R-4STE1HLF_0_AMPHENOL_SFV2';
@@ -418,30 +457,6 @@ primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
     PART_NAME='ESP32-DevKitC';
     JEDEC_TYPE='ESP32-DevKitC';
     VALUE='ESP32-DevKitC';
-  end_body;
-end_primitive;
-primitive 'MIC5317-3.3YM5-TR_SOT95P280X100';
-  pin
-    'VIN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'EN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'NC':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='MIC5317-3.3YM5-TR';
-    JEDEC_TYPE='SOT95P280X100-5N';
-    VALUE='MIC5317-3.3YM5-TR';
   end_body;
 end_primitive;
 END.

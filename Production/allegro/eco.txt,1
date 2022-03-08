@@ -1,0 +1,102 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../Camer/Documents/GitHub/Production/allegro/production_board1_rev2.brd  |
+|                                                    Tue Mar 08 16:01:07 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3V3          pins ADDED TO this existing net (pins not previously on any net)
+                                 C14.2                          
+                                 IC1.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DC           pins DELETED FROM this net (pin now not on any net)
+                                 U1.35           -13.820 15.2400
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U1.28           -13.820 -2.5400
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 C14.1                          
+                                 IC1.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N72588       pins MOVED FROM this net (to net name listed on right)
+                                 BT2.1           21.7500 -22.000
+                                                                           BATT
+                                 BT2.2           45.6000 -22.000
+                                                                           BATT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N72605       pins MOVED FROM this net (to net name listed on right)
+                                 BT1.1           -8.2500 -22.000
+                                                                           BATT
+                                 BT1.2           15.6000 -22.000
+                                                                           BATT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.1                          
+                                 IC1.3                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../Camer/Documents/GitHub/Production/allegro/production_board1_rev2.brd  |
+|                                                    Tue Mar 08 16:01:07 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AP2127K-3_0.3TRG1_SOT95P280X100
+ C_GU-C1206_C
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../Camer/Documents/GitHub/Production/allegro/production_board1_rev2.brd  |
+|                                                    Tue Mar 08 16:01:07 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ D4                  MBR0530T1_SOD3716X135N_MBR0530T -21.250 -28.000
+ D5                  MBR0530T1_SOD3716X135N_MBR0530T -21.250 -31.750
+ U2                  MIC5317-3.3YM5-TR_SOT95P280X100 -17.700 -29.550
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../Camer/Documents/GitHub/Production/allegro/production_board1_rev2.brd  |
+|                                                    Tue Mar 08 16:01:07 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C14                 C_GU-C1206_C          
+ IC1                 AP2127K-3_0.3TRG1_SOT95P280X100 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../Camer/Documents/GitHub/Production/allegro/production_board1_rev2.brd  |
+|                                                    Tue Mar 08 16:01:07 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ IC1.5                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :      12                                        |
+|       Comp definitions added:       2                                        |
+|       Components added      :       2                                        |
+|       Components deleted    :       3                                        |
+|       Slot property added   :       2                                        |
+|                                                                              |
+|   Total ECO changes reported:      21                                        |
+|------------------------------------------------------------------------------|

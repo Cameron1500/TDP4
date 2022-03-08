@@ -1,9 +1,9 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Feb-18-2022 at 16:51:25 }
+{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 16:05:01 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PRODUCTION';
- POST_TIME='May 11 2019 05:12:43';
+ POST_TIME='Apr 15 2018 17:30:46';
  SOURCE_TOOL='CAPTURE_WRITER';
 END_DIRECTIVES;
 
@@ -64,6 +64,16 @@ SECTION_NUMBER 1
  '@PRODUCTION.SCHEMATIC1(SCH_1):INS61694@ANALOG.C.NORMAL(CHIPS)':
  C_PATH='@production.schematic1(sch_1):ins61694@analog.\c.normal\(chips)',
  P_PATH='@production.schematic1(sch_1):page1_ins61694@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_GU-C1206_C':;
+
+SECTION_NUMBER 1
+ '@PRODUCTION.SCHEMATIC1(SCH_1):INS80669@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@production.schematic1(sch_1):ins80669@analog.\c.normal\(chips)',
+ P_PATH='@production.schematic1(sch_1):page1_ins80669@analog.\c.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -178,22 +188,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- D4 'MBR0530T1_SOD3716X135N_MBR0530T':;
+ IC1 'AP2127K-3_0.3TRG1_SOT95P280X100':;
 
 SECTION_NUMBER 1
- '@PRODUCTION.SCHEMATIC1(SCH_1):INS63946@SCHOTTKY.MBR0530T1.NORMAL(CHIPS)':
- C_PATH='@production.schematic1(sch_1):ins63946@schottky.\mbr0530t1.normal\(chips)',
- P_PATH='@production.schematic1(sch_1):page1_ins63946@schottky.\mbr0530t1.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- D5 'MBR0530T1_SOD3716X135N_MBR0530T':;
-
-SECTION_NUMBER 1
- '@PRODUCTION.SCHEMATIC1(SCH_1):INS68184@SCHOTTKY.MBR0530T1.NORMAL(CHIPS)':
- C_PATH='@production.schematic1(sch_1):ins68184@schottky.\mbr0530t1.normal\(chips)',
- P_PATH='@production.schematic1(sch_1):page1_ins68184@schottky.\mbr0530t1.normal\(chips)',
+ '@PRODUCTION.SCHEMATIC1(SCH_1):INS83461@PRODUCTION.AP2127K-3_0.3TRG1.NORMAL(CHIPS)':
+ C_PATH='@production.schematic1(sch_1):ins83461@production.\ap2127k-3_0.3trg1.normal\(chips)',
+ P_PATH='@production.schematic1(sch_1):page1_ins83461@production.\ap2127k-3_0.3trg1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -284,16 +284,6 @@ SECTION_NUMBER 1
  '@PRODUCTION.SCHEMATIC1(SCH_1):INS41380@TDP.ESP32-DEVKITC.NORMAL(CHIPS)':
  C_PATH='@production.schematic1(sch_1):ins41380@tdp.\esp32-devkitc.normal\(chips)',
  P_PATH='@production.schematic1(sch_1):page1_ins41380@tdp.\esp32-devkitc.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U2 'MIC5317-3.3YM5-TR_SOT95P280X100':;
-
-SECTION_NUMBER 1
- '@PRODUCTION.SCHEMATIC1(SCH_1):INS60040@MIC5317-3.3YM5-TR.MIC5317-3.3YM5-TR.NORMAL(CHIPS)':
- C_PATH='@production.schematic1(sch_1):ins60040@\mic5317-3.3ym5-tr\.\mic5317-3.3ym5-tr.normal\(chips)',
- P_PATH='@production.schematic1(sch_1):page1_ins60040@\mic5317-3.3ym5-tr\.\mic5317-3.3ym5-tr.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

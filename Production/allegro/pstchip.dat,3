@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 15:55:28}
+{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 16:01:06}
 primitive 'BATTERY_HOLDER_9_30212_BATTERY_';
   pin
     '1':
@@ -108,7 +108,7 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     VALUE='MBR0530T1';
   end_body;
 end_primitive;
-primitive 'AP2127K-3_0.3TRG1_SOT95P282X145';
+primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
   pin
     'VIN':
       PIN_NUMBER='(3)';
@@ -128,7 +128,7 @@ primitive 'AP2127K-3_0.3TRG1_SOT95P282X145';
   end_pin;
   body
     PART_NAME='AP2127K-3_0.3TRG1';
-    JEDEC_TYPE='SOT95P282X145-5N';
+    JEDEC_TYPE='SOT95P280X100-5N';
     VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;

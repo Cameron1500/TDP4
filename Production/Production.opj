@@ -26,7 +26,9 @@
         (DisplayName ".\lib\mbr0530t1g.olb"))
       (File ".\lib\mic5317-3.3ym5-tr.olb"
         (Type "Schematic Library")
-        (DisplayName ".\lib\mic5317-3.3ym5-tr.olb")))
+        (DisplayName ".\lib\mic5317-3.3ym5-tr.olb"))
+      (File ".\lib\ap2127k-3.3trg1.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\production.dsn"
       (Type "Schematic Design")
@@ -56,10 +58,10 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "H:\GitHub\TDP4\Production\allegro\production_board2_rev1.brd")
+       "C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Netlist Open Board in Allegro" "NEITHER")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Ignore Constraints" "FALSE")
     ("Allegro Setup Part Type Length" "31")
@@ -67,7 +69,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "H:\GitHub\TDP4\Production\allegro\production_board2_rev1.brd")
+       "C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd")
     (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
@@ -119,6 +121,21 @@
       (DisplayName ".\prototype.drc")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (MIC5317-3.3YM5-TR
+      (FullPartName "MIC5317-3.3YM5-TR.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\LIB\MIC5317-3.3YM5-TR.OLB")
+      (DeviceIndex "0"))
+    (AP2127K-3.3TRG1
+      (FullPartName "AP2127K-3.3TRG1.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\LIB\AP2127K-3.3TRG1.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
     (MBR0530T1G
       (FullPartName "MBR0530T1G.Normal")
       (LibraryName
@@ -139,11 +156,6 @@
       (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (MIC5317-3.3YM5-TR
-      (FullPartName "MIC5317-3.3YM5-TR.Normal")
-      (LibraryName
-         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\MIC5317-3.3YM5-TR.OLB")
       (DeviceIndex "0"))
     ("SW SPDT"
       (FullPartName "SW SPDT.Normal")
@@ -208,11 +220,6 @@
       (FullPartName "CON6.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
     (CON2
       (FullPartName "CON2.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -226,11 +233,6 @@
       (FullPartName "MBR0530T1.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SCHOTTKY.OLB")
-      (DeviceIndex "0"))
-    (L
-      (FullPartName "L.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -247,7 +249,7 @@
       (Path "Design Resources" "Library" ".\lib\mbr0530t1g.olb")
       (Path "Design Resources" "Library" ".\lib\mic5317-3.3ym5-tr.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\production.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\production.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -257,13 +259,31 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
-        (Scroll "-67 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1257 104 365")
+        (Scroll "274 723")
+        (Zoom "184")
         (Occurrence "/"))
       (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\PRODUCTION.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 963 104 365"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 859 0 261"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 885 26 287"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstchip.dat")
+      (Scroll "0")))
   (MPSSessionName "Camer")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (ISPCBBASICLICENSE "false"))
