@@ -246,7 +246,8 @@
       (Path "Design Resources" "Library" ".\lib\tdp.olb")
       (Path "Design Resources" "Library" ".\lib\mbr0530t1g.olb")
       (Path "Design Resources" "Library" ".\lib\mic5317-3.3ym5-tr.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\production.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -256,13 +257,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1408 78 399")
-        (Scroll "-229 321")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313")
+        (Scroll "-67 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "H:\GITHUB\TDP4\PRODUCTION\PRODUCTION.DSN")
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\PRODUCTION.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "2331546T")
+  (MPSSessionName "Camer")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (ISPCBBASICLICENSE "false"))

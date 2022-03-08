@@ -2,47 +2,33 @@
 (                                                                     )
 (    Compose Shapes                                                   )
 (                                                                     )
-(    Drawing          : production_board2_rev1.brd                    )
-(    Software Version : 17.2S055                                      )
-(    Date/Time        : Thu Feb 24 13:20:05 2022                      )
+(    Drawing          : production_board1_rev2.brd                    )
+(    Software Version : 17.2S038                                      )
+(    Date/Time        : Tue Mar 08 14:11:33 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 current class name(BOARD GEOMETRY)
-Find smallest gap failed. Be cautious, this may not be an error
 Retrieve closedLoop with segments (nil) failed
-Creating Open shape by path _axlPath@0x225d4bcacf8 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d4bcacc8 failed
-Creating unfilled shape with path _axlPath@0x225d4bcaea8 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-A total of 1 shapes were created.
-current class name(BOARD GEOMETRY)
-Creating Open shape by path _axlPath@0x225d41a70c8 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d41a7098 failed
-Creating unfilled shape with path _axlPath@0x225d41a7278 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-A total of 1 shapes were created.
+Get shape struct returns nil
+A total of 0 shapes were created.
 There are segments remaining which do not form a closed shape based on current gap settings.
 Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
-current class name(BOARD GEOMETRY)
-Creating Open shape by path _axlPath@0x225d41a7488 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d41a7458 failed
-Creating unfilled shape with path _axlPath@0x225d41a7638 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-A total of 1 shapes were created.
-There are segments remaining which do not form a closed shape based on current gap settings.
-Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
-current class name(BOARD GEOMETRY)
-Creating Open shape by path _axlPath@0x225d41a7860 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d41a7830 failed
-Creating unfilled shape with path _axlPath@0x225d41a7a10 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-A total of 1 shapes were created.
-There are segments remaining which do not form a closed shape based on current gap settings.
-Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
-current class name(BOARD GEOMETRY)
+Intersection point nil is not in design
 Find smallest gap failed. Be cautious, this may not be an error
-Creating Open shape by path _axlPath@0x225d41a7c68 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d41a7c38 failed
-Creating Open shape by path _axlPath@0x225d41a7e00 failed!
-Creating closed shape by cpshShapeDataStruct@0x225d41a7c20 failed
-Creating unfilled shape with path _axlPath@0x225d41a7fb0 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-Creating unfilled shape with path _axlPath@0x225d58aa290 on layer "BOARD GEOMETRY/DESIGN_OUTLINE" failed
-A total of 2 shapes were created.
+ERROR(SPMHIS-437): Increasing the gap tolerance to 70.6576 MM to close the next smallest gap.
+Intersection point nil is not in design
+Find smallest gap failed. Be cautious, this may not be an error
+A total of 1 shapes were created.
+current class name(BOARD GEOMETRY)
+Retrieve closedLoop with segments (nil) failed
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
+Retrieve closedLoop with segments (nil) failed
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
