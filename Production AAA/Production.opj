@@ -270,12 +270,15 @@
         (Placement "44 0 1 0 333 -8 -31 0 200 0 222"))
       (Tab 0))
     (Doc
-      (Type "TextFile")
+      (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1153 0 261"))
-      (Path
-         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstxnet.dat")
-      (Scroll "0"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 1153 0 261")
+        (Scroll "-169 0")
+        (Zoom "79")
+        (Occurrence "/"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\PRODUCTION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
     (Doc
       (Type "TextFile")
       (Frame
@@ -284,15 +287,12 @@
          "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstxprt.dat")
       (Scroll "0"))
     (Doc
-      (Type "COrSchematicDoc")
+      (Type "TextFile")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 1153 0 261")
-        (Scroll "-166 261")
-        (Zoom "92")
-        (Occurrence "/"))
-      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\PRODUCTION.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 1153 0 261"))
+      (Path
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstxnet.dat")
+      (Scroll "0"))
     (Doc
       (Type "TextFile")
       (Frame

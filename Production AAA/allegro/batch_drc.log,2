@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : production_board2_rev1.brd                    )
 (    Software Version : 17.2S038                                      )
-(    Date/Time        : Wed Mar 16 14:49:30 2022                      )
+(    Date/Time        : Wed Mar 16 14:57:07 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  60
+ ..... Total number of DRC errors  38
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
