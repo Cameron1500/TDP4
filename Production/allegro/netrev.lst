@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : production_board1_rev3.brd                    )
 (    Software Version : 17.2S038                                      )
-(    Date/Time        : Tue Mar 08 16:05:05 2022                      )
+(    Date/Time        : Wed Mar 16 12:04:49 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,14 +20,14 @@ DRC update:                  Yes
 Schematic directory:         'C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro'
 Design Directory:            'C:/Users/Camer/Documents/GitHub/Production/allegro'
 Old design name:             'C:/Users/Camer/Documents/GitHub/Production/allegro/production_board1_rev3.brd'
-New design name:             'C:/Users/Camer/Documents/GitHub/Production/allegro/production_board1_rev3.brd'
+New design name:             'C:/Users/Camer/Documents/GitHub/Production/allegro/production_board1_rev4.brd'
 
-CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd
+CmdLine: netrev.exe -y 1 -i C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev4.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstchip.dat 
-   Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstchip.dat (00:00:00.02)
+   Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstchip.dat (00:00:00.03)
 Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxprt.dat 
    Finished reading C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/USERS/CAMER/DOCUMENTS/GITHUB/PRODUCTION/allegro/pstxnet.dat 
@@ -60,7 +60,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 8 16:05:05 2022
+netrev run on Mar 16 12:04:49 2022
    DESIGN NAME : 'PRODUCTION'
    PACKAGING ON Apr 15 2018 17:30:46
 
@@ -85,6 +85,6 @@ netrev run on Mar 8 16:05:05 2022
  No oversight detected
  No warning detected
 
-cpu time      0:00:33
-elapsed time  0:00:00
+cpu time      0:00:34
+elapsed time  0:00:01
 

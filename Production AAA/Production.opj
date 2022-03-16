@@ -1,0 +1,305 @@
+(ExpressProject "Prototype"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lib\3021-2.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\3021-2.olb"))
+      (File ".\lib\nrh2412t100mngh.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\nrh2412t100mngh.olb"))
+      (File ".\lib\sfv24r-4ste1hlf.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\sfv24r-4ste1hlf.olb"))
+      (File ".\lib\si1308edl-t1-be3.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\si1308edl-t1-be3.olb"))
+      (File ".\lib\ssss213100.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\ssss213100.olb"))
+      (File ".\lib\tdp.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\tdp.olb"))
+      (File ".\lib\mbr0530t1g.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\mbr0530t1g.olb"))
+      (File ".\lib\mic5317-3.3ym5-tr.olb"
+        (Type "Schematic Library")
+        (DisplayName ".\lib\mic5317-3.3ym5-tr.olb"))
+      (File ".\lib\ap2127k-3.3trg1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\production.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\production.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "C:\Users\Camer\Documents\GitHub\Production AAA\allegro\production_board2_rev1.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "NEITHER")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "C:\Users\Camer\Documents\GitHub\Production AAA\allegro\production_board2_rev1.brd")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "H:\GitHub\TDP4\Production\prototype.drc")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\PRODUCTION.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\PRODUCTION.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\prototype.drc"
+      (Type "Report")
+      (DisplayName ".\prototype.drc"))
+    (File ".\production.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON16
+      (FullPartName "CON16.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON15
+      (FullPartName "CON15.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MIC5317-3.3YM5-TR
+      (FullPartName "MIC5317-3.3YM5-TR.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\LIB\MIC5317-3.3YM5-TR.OLB")
+      (DeviceIndex "0"))
+    (AP2127K-3.3TRG1
+      (FullPartName "AP2127K-3.3TRG1.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\LIB\AP2127K-3.3TRG1.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MBR0530T1G
+      (FullPartName "MBR0530T1G.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\TDP4\PROTOTYPE\LIB\MBR0530T1G.OLB")
+      (DeviceIndex "0"))
+    (SSSS213100
+      (FullPartName "SSSS213100.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (Battery_Holder
+      (FullPartName "Battery_Holder.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\CAD\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("SW SPDT"
+      (FullPartName "SW SPDT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (SFV24R-4STE1HLF
+      (FullPartName "SFV24R-4STE1HLF.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\DOCUMENTS\ELECTRONICS PROJECTS\TDP4\PROTOTYPE\LIB\SFV24R-4STE1HLF.OLB")
+      (DeviceIndex "0"))
+    (MDE0154A152152BW
+      (FullPartName "MDE0154A152152BW.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (ESP32-DevKitC
+      (FullPartName "ESP32-DevKitC.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\TDP.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (3021-2
+      (FullPartName "3021-2.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\3021-2.OLB")
+      (DeviceIndex "0"))
+    (NRH2412T100MNGH
+      (FullPartName "NRH2412T100MNGH.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\NRH2412T100MNGH.OLB")
+      (DeviceIndex "0"))
+    (SI1308EDL-T1-BE3
+      (FullPartName "SI1308EDL-T1-BE3.Normal")
+      (LibraryName
+         "C:\USERS\CAMER\ONEDRIVE - UNIVERSITY OF GLASGOW\YEAR 4\COURSES\TDP\PCB\PROTOTYPE\LIB\SI1308EDL-T1-BE3.OLB")
+      (DeviceIndex "0"))
+    ("SW SLIDE-SPDT"
+      (FullPartName "SW SLIDE-SPDT.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW SPST"
+      (FullPartName "SW SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (JUMPER
+      (FullPartName "JUMPER.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\production.dsn")
+      (Path "Design Resources" ".\production.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\lib\3021-2.olb")
+      (Path "Design Resources" "Library" ".\lib\nrh2412t100mngh.olb")
+      (Path "Design Resources" "Library" ".\lib\sfv24r-4ste1hlf.olb")
+      (Path "Design Resources" "Library" ".\lib\si1308edl-t1-be3.olb")
+      (Path "Design Resources" "Library" ".\lib\ssss213100.olb")
+      (Path "Design Resources" "Library" ".\lib\tdp.olb")
+      (Path "Design Resources" "Library" ".\lib\mbr0530t1g.olb")
+      (Path "Design Resources" "Library" ".\lib\mic5317-3.3ym5-tr.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\production.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 333 -8 -31 0 200 0 222"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1153 0 261"))
+      (Path
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstxnet.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1257 104 365"))
+      (Path
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 1153 0 261")
+        (Scroll "-166 261")
+        (Zoom "92")
+        (Occurrence "/"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\PRODUCTION.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1179 26 287"))
+      (Path
+         "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION AAA\allegro\pstchip.dat")
+      (Scroll "0")))
+  (MPSSessionName "Camer")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (ISPCBBASICLICENSE "false"))

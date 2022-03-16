@@ -58,7 +58,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev3.brd")
+       "C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev4.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "NEITHER")
@@ -121,6 +121,10 @@
       (DisplayName ".\prototype.drc")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON16
+      (FullPartName "CON16.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (MIC5317-3.3YM5-TR
       (FullPartName "MIC5317-3.3YM5-TR.Normal")
       (LibraryName
@@ -228,11 +232,6 @@
       (FullPartName "SI1304BDL.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SILICONIX.OLB")
-      (DeviceIndex "0"))
-    (MBR0530T1
-      (FullPartName "MBR0530T1.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SCHOTTKY.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -248,41 +247,30 @@
       (Path "Design Resources" "Library" ".\lib\tdp.olb")
       (Path "Design Resources" "Library" ".\lib\mbr0530t1g.olb")
       (Path "Design Resources" "Library" ".\lib\mic5317-3.3ym5-tr.olb")
-      (Path "Outputs")
-      (Select "Design Resources" ".\production.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 0 333 -8 -31 0 200 0 222"))
+        (Placement "44 2 3 0 333 -8 -31 0 200 0 222"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1257 104 365")
-        (Scroll "274 723")
-        (Zoom "184")
-        (Occurrence "/"))
-      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\PRODUCTION.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 963 104 365"))
+        (Placement "44 0 1 -1 -1 -8 -31 52 1205 52 313"))
       (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstxprt.dat")
       (Scroll "0"))
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 859 0 261"))
-      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstxnet.dat")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1257 104 365"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstchip.dat")
       (Scroll "0"))
     (Doc
       (Type "TextFile")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 885 26 287"))
-      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstchip.dat")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1231 78 339"))
+      (Path "C:\USERS\CAMER\DOCUMENTS\GITHUB\PRODUCTION\allegro\pstxnet.dat")
       (Scroll "0")))
   (MPSSessionName "Camer")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")

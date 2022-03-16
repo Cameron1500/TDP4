@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 16:05:01 }
+{ Using PSTWRITER 17.2.0 d001Mar-16-2022 at 12:04:49 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PRODUCTION';
@@ -68,7 +68,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C14 'C_GU-C1206_C':;
+ C14 'C_GU-C1206_NOT MOUNTED':;
 
 SECTION_NUMBER 1
  '@PRODUCTION.SCHEMATIC1(SCH_1):INS80669@ANALOG.C.NORMAL(CHIPS)':
@@ -214,6 +214,16 @@ SECTION_NUMBER 1
  '@PRODUCTION.SCHEMATIC1(SCH_1):INS32624@CONNECTOR.CON6.NORMAL(CHIPS)':
  C_PATH='@production.schematic1(sch_1):ins32624@connector.\con6.normal\(chips)',
  P_PATH='@production.schematic1(sch_1):page1_ins32624@connector.\con6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON16_BLKCON100VHTM1SQSW10016_C':;
+
+SECTION_NUMBER 1
+ '@PRODUCTION.SCHEMATIC1(SCH_1):INS88372@CONNECTOR.CON16.NORMAL(CHIPS)':
+ C_PATH='@production.schematic1(sch_1):ins88372@connector.\con16.normal\(chips)',
+ P_PATH='@production.schematic1(sch_1):page1_ins88372@connector.\con16.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

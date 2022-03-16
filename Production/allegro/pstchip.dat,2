@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 15:56:43}
+{ Using PSTWRITER 17.2.0 d001Mar-16-2022 at 11:46:33}
 primitive 'BATTERY_HOLDER_9_30212_BATTERY_';
   pin
     '1':
@@ -48,7 +48,7 @@ primitive 'C_GU-C0603_1U / 25V';
     VALUE='1u / 25V';
   end_body;
 end_primitive;
-primitive 'C_GU-C1206_C';
+primitive 'C_GU-C1206_NOT MOUNTED';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -60,7 +60,7 @@ primitive 'C_GU-C1206_C';
   body
     PART_NAME='C';
     JEDEC_TYPE='GU-C1206';
-    VALUE='C';
+    VALUE='NOT MOUNTED';
   end_body;
 end_primitive;
 primitive 'C_GU-C0603_1U / 50V';
@@ -108,7 +108,7 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     VALUE='MBR0530T1';
   end_body;
 end_primitive;
-primitive 'AP2127K-3_0.3TRG1_SOT95P282X145';
+primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
   pin
     'VIN':
       PIN_NUMBER='(3)';
@@ -128,7 +128,7 @@ primitive 'AP2127K-3_0.3TRG1_SOT95P282X145';
   end_pin;
   body
     PART_NAME='AP2127K-3_0.3TRG1';
-    JEDEC_TYPE='SOT95P282X145-5N';
+    JEDEC_TYPE='SOT95P280X100-5N';
     VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;
@@ -238,6 +238,63 @@ primitive 'CON6_GU-MOLEX6_SPI TP';
     PART_NAME='CON6';
     JEDEC_TYPE='GU-MOLEX6';
     VALUE='SPI TP';
+  end_body;
+end_primitive;
+primitive 'CON16_GU-HEADER16_CON16';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON16';
+    JEDEC_TYPE='GU-HEADER16';
+    VALUE='CON16';
   end_body;
 end_primitive;
 primitive 'L_NRH2412T2R2MNGH_10UH';

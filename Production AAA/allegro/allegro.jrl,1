@@ -1,0 +1,28 @@
+\t (00:00:03) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Mar 16 11:46:45 2022
+\t (00:00:03)         Host=CAMERON-LAPTOP User=Camer Pid=7756 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:03) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged production_board2_rev1
+\d (00:00:04) Design opened: C:/Users/Camer/Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd
+\t (00:00:04) Grids are drawn 32.0000, 32.0000 apart for enhanced viewability.
+\t (00:00:04) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 13387
+\i (00:00:04) trapsize 14060
+\i (00:00:04) trapsize 13387
+\t (00:00:04) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 13387
+\t (00:00:04) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 11734
+\t (00:00:04) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 27722
+\i (00:00:04) etchedit 
+\i (00:00:09) open 
+\i (00:00:14) fillin "C:\Users\Camer\Documents\GitHub\Production\allegro\production_board1_rev4.brd"
+\i (00:00:14) cd "C:\Users\Camer\Documents\GitHub\Production\allegro"
+\t (00:00:14) Opening existing design...
+\t (00:00:14) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:00:14) trapsize 5867
+\t (00:00:14)     Journal end - Wed Mar 16 11:46:56 2022
