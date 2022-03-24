@@ -1,27 +1,19 @@
-\t (00:00:01) allegro 17.2 S038 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Mar 15 16:35:02 2022
-\t (00:00:01)         Host=CAMERON-LAPTOP User=Camer Pid=14688 CPUs=8
-\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged PP002027
-\d (00:00:04) Design opened: C:/Users/Camer/Documents/GitHub/Footprints/PP002027.dra
-\t (00:00:04) Grids are drawn 32.000, 32.000 apart for enhanced viewability.
-\i (00:00:04) trapsize 845
-\i (00:00:04) trapsize 888
-\i (00:00:04) trapsize 845
-\i (00:00:04) trapsize 754
-\i (00:00:04) trapsize 754
-\i (00:00:04) generaledit 
-\i (00:00:06) open 
-\i (00:00:15) fillin "C:\Users\Camer\Documents\GitHub\Production AAA\allegro\production_board2_rev1.brd"
-\i (00:00:15) cd "C:\Users\Camer\Documents\GitHub\Production AAA\allegro"
-\t (00:00:15) Opening existing design...
-\i (00:00:15) trapsize 5974
-\i (00:00:15) trapsize 6241
-\i (00:00:15) trapsize 5974
-\t (00:00:15) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
-\t (00:00:15) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:00:15) trapsize 6335
-\t (00:00:15)     Journal end - Tue Mar 15 16:35:16 2022
+\t (00:00:06) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Thu Mar 24 22:36:58 2022
+\t (00:00:06)         Host=CAMERON-LAPTOP User=Camer Pid=2316 CPUs=8
+\t (00:00:06) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:06) Starting new design...
+\i (00:00:09) trapsize 29310
+\i (00:00:09) trapsize 11053
+\i (00:00:10) generaledit 
+\i (00:00:29) open 
+\i (00:00:38) fillin "C:\Users\Camer\Documents\GitHub\Production AAA\allegro\production_board2_rev1.brd"
+\i (00:00:38) cd "C:\Users\Camer\Documents\GitHub\Production AAA\allegro"
+\i (00:00:38) trapsize 1848
+\i (00:00:38) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:00:38) Opening existing design...
+\t (00:00:38) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:38) trapsize 7454
+\t (00:00:39)     Journal end - Thu Mar 24 22:37:31 2022

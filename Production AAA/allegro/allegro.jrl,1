@@ -1,287 +1,35 @@
-\t (00:00:01) allegro 17.2 S038 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Mar 16 14:10:57 2022
-\t (00:00:01)         Host=CAMERON-LAPTOP User=Camer Pid=10796 CPUs=8
-\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged production_board2_rev1
-\d (00:00:04) Design opened: C:/Users/Camer/Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd
-\i (00:00:04) trapsize 3347
-\i (00:00:04) trapsize 3515
-\i (00:00:04) trapsize 3347
-\i (00:00:04) trapsize 3347
-\i (00:00:04) trapsize 2933
-\i (00:00:04) trapsize 16643
-\i (00:00:05) etchedit 
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 22.0784 22.6747
-\i (00:00:10) trapsize 5867
-\i (00:00:10) zoom out 1 
-\i (00:00:10) setwindow pcb
-\i (00:00:10) zoom out 22.0785 22.6748
-\i (00:00:10) trapsize 11734
-\i (00:00:13) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
-\i (00:00:28) zoom fit 
-\i (00:00:28) trapsize 7630
-\i (00:02:29) drag_start grid 2.4418 -11.7409
-\i (00:02:29) move 
-\t (00:02:29) last pick:  2.5000 -11.7500
-\t (00:02:29) Element has no origin, using pick.
-\t (00:02:29) Pick new location for the element(s).
-\i (00:02:30) drag_stop grid -18.3130 -9.6043
-\i (00:02:30) etchedit 
-\i (00:02:30) drag_start grid -18.7708 -9.6043
-\i (00:02:30) move 
-\t (00:02:30) last pick:  -18.7500 -9.5000
-\t (00:02:30) Element has no origin, using pick.
-\t (00:02:30) Pick new location for the element(s).
-\i (00:02:31) drag_stop grid -20.4495 -13.8774
-\i (00:02:31) etchedit 
-\i (00:02:32) pick grid -20.4495 -13.4196
-\t (00:02:32) last pick:  -20.5000 -13.5000
-\i (00:02:33) undo 
-\i (00:02:33) trapsize 7630
-\i (00:02:33) etchedit 
-\i (00:02:33) undo 
-\i (00:02:34) trapsize 7630
-\i (00:02:34) etchedit 
-\i (00:02:45) pick grid 57.0757 14.8131
-\t (00:02:45) last pick:  57.0000 14.7500
-\i (00:02:55) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
-\i (00:02:58) pick grid -0.7630 27.1744
-\t (00:02:58) last pick:  -0.7500 27.2500
-\i (00:03:29) pick grid -45.0195 18.3231
-\t (00:03:29) last pick:  -45.0000 18.2500
-\i (00:03:44) open 
-\e (00:03:44) Do you want to save the changes you made to production_board2_rev1.brd?
-\i (00:03:46) fillin menu_cancel 
-\i (00:03:46) etchedit 
-\i (00:04:00) pick grid -3.0521 -4.8735
-\t (00:04:00) last pick:  -3.0000 -4.7500
-\i (00:04:33) zoom out 1 
-\i (00:04:33) setwindow pcb
-\i (00:04:33) zoom out -36.1682 -32.3430
-\i (00:04:33) trapsize 15261
-\i (00:04:34) zoom in 1 
-\i (00:04:34) setwindow pcb
-\i (00:04:34) zoom in -53.5028 -35.3953
-\i (00:04:34) trapsize 7630
-\i (00:04:34) zoom in 1 
-\i (00:04:34) setwindow pcb
-\i (00:04:34) zoom in -53.1975 -35.3952
-\i (00:04:34) trapsize 3815
-\i (00:04:35) zoom out 1 
-\i (00:04:35) setwindow pcb
-\i (00:04:35) zoom out -33.8925 -26.9254
-\i (00:04:35) trapsize 7630
-\i (00:04:40) zoom out 1 
-\i (00:04:40) setwindow pcb
-\i (00:04:40) zoom out -4.5916 -5.7127
-\i (00:04:40) trapsize 15261
-\i (00:04:41) zoom in 1 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom in -1.1312 -6.6284
-\i (00:04:41) trapsize 7630
-\i (00:04:42) zoom out 1 
-\i (00:04:42) setwindow pcb
-\i (00:04:42) zoom out -18.6812 -6.0179
-\i (00:04:42) trapsize 15261
-\i (00:04:43) zoom in 1 
-\i (00:04:43) setwindow pcb
-\i (00:04:43) zoom in -43.7092 10.4638
-\i (00:04:43) trapsize 7630
-\i (00:04:51) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked true
-\i (00:04:52) zoom in 1 
-\i (00:04:52) setwindow pcb
-\i (00:04:52) zoom in -36.3839 -17.0057
-\i (00:04:52) trapsize 3815
-\i (00:04:55) zoom in 1 
-\i (00:04:55) setwindow pcb
-\i (00:04:55) zoom in -45.3115 -14.7166
-\i (00:04:55) trapsize 1908
-\i (00:04:55) zoom in 1 
-\i (00:04:55) setwindow pcb
-\i (00:04:55) zoom in -45.3496 -14.6784
-\i (00:04:55) trapsize 954
-\i (00:04:56) zoom out 1 
-\i (00:04:56) setwindow pcb
-\i (00:04:56) zoom out -45.3114 -14.6211
-\i (00:04:56) trapsize 1908
-\i (00:04:57) zoom out 1 
-\i (00:04:57) setwindow pcb
-\i (00:04:57) zoom out -45.3114 -14.6212
-\i (00:04:57) trapsize 3815
-\i (00:04:57) zoom out 1 
-\i (00:04:57) setwindow pcb
-\i (00:04:57) zoom out -45.3114 -14.6211
-\i (00:04:57) trapsize 7630
-\i (00:05:07) zoom in 1 
-\i (00:05:07) setwindow pcb
-\i (00:05:07) zoom in -43.7854 -4.2437
-\i (00:05:07) trapsize 3815
-\i (00:05:07) zoom in 1 
-\i (00:05:07) setwindow pcb
-\i (00:05:07) zoom in -43.7854 -4.2437
-\i (00:05:07) trapsize 1908
-\i (00:05:07) zoom out 1 
-\i (00:05:07) setwindow pcb
-\i (00:05:07) zoom out -42.7553 -8.3642
-\i (00:05:07) trapsize 3815
-\i (00:05:08) zoom out 1 
-\i (00:05:08) setwindow pcb
-\i (00:05:08) zoom out -41.6107 -10.8822
-\i (00:05:08) trapsize 7630
-\i (00:05:08) zoom out 1 
-\i (00:05:08) setwindow pcb
-\i (00:05:08) zoom out -41.6107 -10.8821
-\i (00:05:08) trapsize 15261
-\i (00:05:09) zoom in 1 
-\i (00:05:09) setwindow pcb
-\i (00:05:09) zoom in -41.0003 -16.3761
-\i (00:05:09) trapsize 7630
-\i (00:05:09) zoom in 1 
-\i (00:05:09) setwindow pcb
-\i (00:05:09) zoom in -41.0003 -16.3761
-\i (00:05:09) trapsize 3815
-\i (00:05:09) zoom in 1 
-\i (00:05:09) setwindow pcb
-\i (00:05:09) zoom in -41.0003 -16.3760
-\i (00:05:09) trapsize 1908
-\i (00:05:09) zoom out 1 
-\i (00:05:09) setwindow pcb
-\i (00:05:09) zoom out -41.0003 -16.3760
-\i (00:05:09) trapsize 3815
-\i (00:05:10) zoom out 1 
-\i (00:05:10) setwindow pcb
-\i (00:05:10) zoom out -39.6268 -16.7576
-\i (00:05:10) trapsize 7630
-\i (00:05:10) zoom out 1 
-\i (00:05:10) setwindow pcb
-\i (00:05:10) zoom out -39.6268 -16.7575
-\i (00:05:10) trapsize 15261
-\i (00:05:11) roam start
-\i (00:05:11) roam y 48
-\i (00:05:11) roam end
-\i (00:05:11) zoom in 1 
-\i (00:05:11) setwindow pcb
-\i (00:05:11) zoom in -4.5267 -25.5411
-\i (00:05:11) trapsize 7630
-\t (00:05:11) Pick to complete the window.
-\i (00:05:14) prepopup -8.0367 -10.1275
-\i (00:05:14) cancel 
-\i (00:05:19) roam start
-\i (00:05:19) roam x 16
-\i (00:05:19) roam y -64
-\i (00:05:19) roam end
-\i (00:05:20) zoom out 1 
-\i (00:05:20) setwindow pcb
-\i (00:05:20) zoom out 63.2701 28.0248
-\i (00:05:20) trapsize 15261
-\i (00:05:21) zoom in 1 
-\i (00:05:21) setwindow pcb
-\i (00:05:21) zoom in 105.6955 28.0247
-\i (00:05:21) trapsize 7630
-\i (00:05:21) zoom out 1 
-\i (00:05:21) setwindow pcb
-\i (00:05:21) zoom out 92.8764 21.1573
-\i (00:05:21) trapsize 15261
-\i (00:05:24) zoom fit 
-\i (00:05:24) trapsize 7630
-\i (00:05:32) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
-\i (00:05:38) setwindow form.find
-\i (00:05:38) FORM find all_on  
-\i (00:06:38) setwindow pcb
-\i (00:06:38) pick grid 56.3127 16.3392
-\t (00:06:38) last pick:  56.2500 16.2500
-\i (00:07:12) 3d 
-\i (00:07:14) etchedit 
-\i (00:07:14) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 419 401 419 445 1 1 0 +
-\i (00:07:14) QtSignal 209.298 -1523.3 -1677.57
-\i (00:07:15) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 358 387 358 431 1 0 +
-\i (00:07:15) QtSignal 0 -370.694 -1983.96 -1531.42
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 445 273 445 317 4 4 0 +
-\i (00:07:16) QtSignal -114.448 -755.999 -341.319
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.448 -755.999 -341.319 -101.662 +
-\i (00:07:16) QtSignal -768.785 -372.637
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.47 -755.977 -341.265 -63.327 +
-\i (00:07:16) QtSignal -807.12 -466.539
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.559 -755.888 -341.047 -88.9874 +
-\i (00:07:16) QtSignal -781.459 -403.684
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.603 -755.844 -340.938 51.6051 +
-\i (00:07:16) QtSignal -939.112 -768.958
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.898 -755.531 -340.194 -72.2671 +
-\i (00:07:16) QtSignal -764.042 -402.831
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -114.96 -755.504 -340.085 -76.591 +
-\i (00:07:16) QtSignal -759.754 -392.282
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.014 -755.485 -339.993 115.154 +
-\i (00:07:16) QtSignal -917.413 -820.21
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.389 -755.179 -339.158 -98.3415 +
-\i (00:07:16) QtSignal -772.227 -380.916
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.42 -755.148 -339.086 -81.3249 +
-\i (00:07:16) QtSignal -789.244 -422.602
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.478 -755.09 -338.94 -68.6154 +
-\i (00:07:16) QtSignal -853.133 -516.411
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.578 -754.938 -338.632 -115.602 +
-\i (00:07:16) QtSignal -823.153 -422.148
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.602 -754.844 -338.486 -119.87 +
-\i (00:07:16) QtSignal -767.636 -348.926
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -115.602 -754.827 -338.469 -111.34 +
-\i (00:07:16) QtSignal -759.089 -348.909
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 443 431 443 475 4 0 120
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -159.024 -554.455 -39.8802 -165.848 +
-\i (00:07:16) QtSignal -561.279 -39.8802
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -159.018 -554.447 -39.8812 -162.428 +
-\i (00:07:16) QtSignal -551.037 -31.5295
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -159.013 -554.453 -39.8955 -176.065 +
-\i (00:07:16) QtSignal -551.048 -14.8407
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 444 416 444 460 4 0 +
-\i (00:07:16) QtSignal 0 -182.845 -503.311 51.9285
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 479 367 479 411 4 4 0 +
-\i (00:07:16) QtSignal -111.074 -97.4064 461.157
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.074 -97.4064 461.157 -97.426 +
-\i (00:07:16) QtSignal -83.7585 461.157
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.088 -97.4205 461.157 -111.083 +
-\i (00:07:16) QtSignal -83.7775 477.86
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.083 -97.4393 461.128 -83.7432 +
-\i (00:07:16) QtSignal 52.6435 611.457
-\i (00:07:16) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.067 -97.6367 460.867 -107.643 +
-\i (00:07:16) QtSignal -60.1172 502.625
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.058 -97.6872 460.794 -73.4947 +
-\i (00:07:17) QtSignal 28.524 569.365
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.065 -97.8478 460.605 -93.9877 +
-\i (00:07:17) QtSignal -33.0375 519.067
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.065 -97.9311 460.504 -35.899 +
-\i (00:07:17) QtSignal 263.635 811.272
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -111.039 -98.4029 459.894 -107.522 +
-\i (00:07:17) QtSignal 198.334 819.013
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -110.937 -98.8113 459.269 -110.932 +
-\i (00:07:17) QtSignal -85.1682 475.972
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -110.932 -98.8298 459.24 -90.4309 +
-\i (00:07:17) QtSignal 3.50012 559.46
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -110.923 -98.965 459.067 -110.918 +
-\i (00:07:17) QtSignal -85.322 475.77
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -110.919 -98.9828 459.037 -107.505 +
-\i (00:07:17) QtSignal -88.7494 467.389
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent -110.919 -98.997 459.023 -93.8224 +
-\i (00:07:17) QtSignal 20.3854 584.298
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 592 205 592 249 4 0 +
-\i (00:07:17) QtSignal 0 -110.9 -99.156 458.805
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 550 246 550 290 0 0 -120
-\i (00:07:17) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 550 248 550 292 0 0 -120
-\i (00:07:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 685 146 685 190 1 1 0 +
-\i (00:07:18) QtSignal 980.966 2148.16 1873.94
-\i (00:07:18) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 685 146 685 190 1 0 +
-\i (00:07:18) QtSignal 0 980.966 2148.16 1873.94
-\i (00:07:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 927 231 927 275 2 2 0 +
-\i (00:07:19) QtSignal 4432 4568.76 611.924
-\i (00:07:19) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 833 141 833 185 2 0 +
-\i (00:07:19) QtSignal 0 2746.12 3973.93 1948.18
-\i (00:07:19) QtSignal pcb3dViewer pcb3dViewerCanvas RMB "[274612 397393 194818]"
-\i (00:07:21) QtFillin 
-\i (00:07:23) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:20:07) exit 
-\e (00:20:07) Do you want to save the changes you made to production_board2_rev1.brd?
-\i (00:20:10) fillin no 
-\t (00:20:10)     Journal end - Wed Mar 16 14:31:05 2022
+\t (00:00:22) allegro 17.2 S038 Windows SPB 64-bit Edition
+\t (00:00:22)     Journal start - Thu Mar 24 22:32:43 2022
+\t (00:00:22)         Host=CAMERON-LAPTOP User=Camer Pid=21608 CPUs=8
+\t (00:00:22) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:22) 
+\d (00:00:22) Design opened: C:/Users/Camer/Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd
+\i (00:00:22) placementedit 
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 8.5535 17.9661
+\t (00:00:26) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:00:26) trapsize 3727
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 8.5536 17.9661
+\i (00:00:26) trapsize 1863
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 8.5536 17.9662
+\i (00:00:27) trapsize 3727
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 8.5536 17.9662
+\t (00:00:27) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:00:27) trapsize 7454
+\i (00:00:35) open 
+\i (00:00:49) fillin "C:\Users\Camer\Documents\GitHub\Footprints\PP002027.dra"
+\i (00:00:49) cd "C:\Users\Camer\Documents\GitHub\Footprints"
+\t (00:00:49) Opening existing design...
+\i (00:00:49) trapsize 741
+\i (00:00:49) trapsize 773
+\i (00:00:49) trapsize 741
+\t (00:00:49) Grids are drawn 8.000, 8.000 apart for enhanced viewability.
+\i (00:00:49) trapsize 815
+\t (00:00:49)     Journal end - Thu Mar 24 22:33:10 2022

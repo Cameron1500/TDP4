@@ -1,1 +1,1 @@
-production_board2_rev1.brd
+production_board2_rev2.brd
