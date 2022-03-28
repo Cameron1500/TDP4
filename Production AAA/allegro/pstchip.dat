@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-16-2022 at 12:17:18}
+{ Using PSTWRITER 17.2.0 d001Mar-25-2022 at 12:51:50}
 primitive 'BATTERY_PP002027_BATTERY';
   pin
     '+':
@@ -228,6 +228,30 @@ primitive 'L_NRH2412T2R2MNGH_10UH';
     VALUE='10uH';
   end_body;
 end_primitive;
+primitive 'AP2128K-3.3TRG1_SOT95P282X130-5';
+  pin
+    'S\H\U\T\D\O\W\N\':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'VIN':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'VOUT':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'NC':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AP2128K-3.3TRG1';
+    JEDEC_TYPE='SOT95P282X130-5N';
+    VALUE='AP2128K-3.3TRG1';
+  end_body;
+end_primitive;
 primitive 'SI1308EDL-T1-BE3_SOT65P210X110-';
   pin
     'G':
@@ -430,30 +454,6 @@ primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
     PART_NAME='ESP32-DevKitC';
     JEDEC_TYPE='ESP32-DevKitC';
     VALUE='ESP32-DevKitC';
-  end_body;
-end_primitive;
-primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
-  pin
-    'VIN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'SHUTDOWN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'NC/ADJ':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='AP2127K-3_0.3TRG1';
-    JEDEC_TYPE='SOT95P280X100-5N';
-    VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;
 END.

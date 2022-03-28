@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-15-2022 at 16:34:44}
+{ Using PSTWRITER 17.2.0 d001Mar-16-2022 at 12:17:18}
 primitive 'BATTERY_PP002027_BATTERY';
   pin
     '+':
@@ -156,7 +156,7 @@ primitive 'SFV24R-4STE1HLF_0_AMPHENOL_SFV2';
     VALUE='SFV24R-4STE1HLF';
   end_body;
 end_primitive;
-primitive 'CON16_GU-HEADER16_CON16';
+primitive 'CON16_BLKCON100VHTM1SQSW10016_C';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -209,7 +209,7 @@ primitive 'CON16_GU-HEADER16_CON16';
   end_pin;
   body
     PART_NAME='CON16';
-    JEDEC_TYPE='GU-HEADER16';
+    JEDEC_TYPE='BLKCON100VHTM1SQSW10016';
     VALUE='CON16';
   end_body;
 end_primitive;

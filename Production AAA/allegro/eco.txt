@@ -2,42 +2,76 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd    |
-|                                                    Wed Mar 16 12:17:18 2022  |
+|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev2.brd    |
+|                                                    Fri Mar 25 12:51:57 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3V3          pins ADDED TO this existing net (pins not previously on any net)
+                                 PS1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 PS1.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this existing net (pins not previously on any net)
+                                 PS1.1                          
+                                 PS1.3                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev2.brd    |
+|                                                    Fri Mar 25 12:51:57 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- CON16_BLKCON100VHTM1SQSW10016_C
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
-|------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd    |
-|                                                    Wed Mar 16 12:17:18 2022  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J2                  CON16_BLKCON100VHTM1SQSW10016_C                 CON16_GU-HEADER16_CON16
+ AP2128K-3.3TRG1_SOT95P282X130-5
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev1.brd    |
-|                                                    Wed Mar 16 12:17:18 2022  |
+|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev2.brd    |
+|                                                    Fri Mar 25 12:51:57 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U2                  AP2127K-3_0.3TRG1_SOT95P280X100 -18.500 -30.000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev2.brd    |
+|                                                    Fri Mar 25 12:51:57 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ PS1                 AP2128K-3.3TRG1_SOT95P282X130-5 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../Documents/GitHub/Production AAA/allegro/production_board2_rev2.brd    |
+|                                                    Fri Mar 25 12:51:57 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J2.9                           PRIM_FILE      .\pstchip.dat
+ PS1.4                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
+|       Components added      :       1                                        |
+|       Components deleted    :       1                                        |
 |       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:       8                                        |
 |------------------------------------------------------------------------------|

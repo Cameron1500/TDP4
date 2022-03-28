@@ -1,21 +1,18 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-08-2022 at 16:05:01}
-primitive 'BATTERY_HOLDER_9_30212_BATTERY_';
+{ Using PSTWRITER 17.2.0 d001Mar-15-2022 at 16:33:04}
+primitive 'BATTERY_PP002027_BATTERY';
   pin
-    '1':
+    '+':
       PIN_NUMBER='(1)';
-      PINUSE='POWER';
-    'NP1':
-      PIN_NUMBER='(NP1)';
-      PINUSE='POWER';
-    '2':
+      PINUSE='UNSPEC';
+    '-':
       PIN_NUMBER='(2)';
-      PINUSE='POWER';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='Battery_Holder_9';
-    JEDEC_TYPE='30212';
-    VALUE='Battery_Holder';
+    PART_NAME='BATTERY';
+    JEDEC_TYPE='pp002027';
+    VALUE='BATTERY';
   end_body;
 end_primitive;
 primitive 'C_GU-C0603_1U';
@@ -33,22 +30,7 @@ primitive 'C_GU-C0603_1U';
     VALUE='1u';
   end_body;
 end_primitive;
-primitive 'C_GU-C0603_1U / 25V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='C';
-    JEDEC_TYPE='GU-C0603';
-    VALUE='1u / 25V';
-  end_body;
-end_primitive;
-primitive 'C_GU-C1206_C';
+primitive 'C_GU-C1206_NOT MOUNTED';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -60,22 +42,7 @@ primitive 'C_GU-C1206_C';
   body
     PART_NAME='C';
     JEDEC_TYPE='GU-C1206';
-    VALUE='C';
-  end_body;
-end_primitive;
-primitive 'C_GU-C0603_1U / 50V';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='C';
-    JEDEC_TYPE='GU-C0603';
-    VALUE='1u / 50V';
+    VALUE='NOT MOUNTED';
   end_body;
 end_primitive;
 primitive 'C_GU-C0603_4.7U';
@@ -106,30 +73,6 @@ primitive 'MBR0530T1_SOD3716X135N_MBR0530T';
     PART_NAME='MBR0530T1';
     JEDEC_TYPE='SOD3716X135N';
     VALUE='MBR0530T1';
-  end_body;
-end_primitive;
-primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
-  pin
-    'VIN':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'SHUTDOWN':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'NC/ADJ':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'VOUT':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='AP2127K-3_0.3TRG1';
-    JEDEC_TYPE='SOT95P280X100-5N';
-    VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;
 primitive 'SFV24R-4STE1HLF_0_AMPHENOL_SFV2';
@@ -213,7 +156,7 @@ primitive 'SFV24R-4STE1HLF_0_AMPHENOL_SFV2';
     VALUE='SFV24R-4STE1HLF';
   end_body;
 end_primitive;
-primitive 'CON6_GU-MOLEX6_SPI TP';
+primitive 'CON16_GU-HEADER16_CON16';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -233,11 +176,41 @@ primitive 'CON6_GU-MOLEX6_SPI TP';
     '6':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CON6';
-    JEDEC_TYPE='GU-MOLEX6';
-    VALUE='SPI TP';
+    PART_NAME='CON16';
+    JEDEC_TYPE='GU-HEADER16';
+    VALUE='CON16';
   end_body;
 end_primitive;
 primitive 'L_NRH2412T2R2MNGH_10UH';
@@ -457,6 +430,30 @@ primitive 'ESP32-DEVKITC_ESP32-DEVKITC_ESP';
     PART_NAME='ESP32-DevKitC';
     JEDEC_TYPE='ESP32-DevKitC';
     VALUE='ESP32-DevKitC';
+  end_body;
+end_primitive;
+primitive 'AP2127K-3_0.3TRG1_SOT95P280X100';
+  pin
+    'VIN':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SHUTDOWN':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NC/ADJ':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='AP2127K-3_0.3TRG1';
+    JEDEC_TYPE='SOT95P280X100-5N';
+    VALUE='AP2127K-3.3TRG1';
   end_body;
 end_primitive;
 END.

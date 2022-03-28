@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Mar-16-2022 at 12:17:18 }
+{ Using PSTWRITER 17.2.0 d001Mar-25-2022 at 12:51:50 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PRODUCTION';
@@ -208,6 +208,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ PS1 'AP2128K-3.3TRG1_SOT95P282X130-5':;
+
+SECTION_NUMBER 1
+ '@PRODUCTION.SCHEMATIC1(SCH_1):INS98287@AP2128K-3.3TRG1.AP2128K-3.3TRG1.NORMAL(CHIPS)':
+ C_PATH='@production.schematic1(sch_1):ins98287@\ap2128k-3.3trg1\.\ap2128k-3.3trg1.normal\(chips)',
+ P_PATH='@production.schematic1(sch_1):page1_ins98287@\ap2128k-3.3trg1\.\ap2128k-3.3trg1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  Q1 'SI1308EDL-T1-BE3_SOT65P210X110-':;
 
 SECTION_NUMBER 1
@@ -264,16 +274,6 @@ SECTION_NUMBER 1
  '@PRODUCTION.SCHEMATIC1(SCH_1):INS41380@TDP.ESP32-DEVKITC.NORMAL(CHIPS)':
  C_PATH='@production.schematic1(sch_1):ins41380@tdp.\esp32-devkitc.normal\(chips)',
  P_PATH='@production.schematic1(sch_1):page1_ins41380@tdp.\esp32-devkitc.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- U2 'AP2127K-3_0.3TRG1_SOT95P280X100':;
-
-SECTION_NUMBER 1
- '@PRODUCTION.SCHEMATIC1(SCH_1):INS83461@PRODUCTION.AP2127K-3_0.3TRG1.NORMAL(CHIPS)':
- C_PATH='@production.schematic1(sch_1):ins83461@production.\ap2127k-3_0.3trg1.normal\(chips)',
- P_PATH='@production.schematic1(sch_1):page1_ins83461@production.\ap2127k-3_0.3trg1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
