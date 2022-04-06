@@ -1,14 +1,17 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Compose Shapes                                                   )
+(    Logo Import Log File                                             )
 (                                                                     )
 (    Drawing          : university_logo.dra                           )
 (    Software Version : 17.2S055                                      )
-(    Date/Time        : Wed Apr 06 11:52:10 2022                      )
+(    Date/Time        : Wed Apr 06 11:09:44 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-current class name(BOARD GEOMETRY)
-Find smallest gap failed. Be cautious, this may not be an error
-A total of 44 shapes were created.
+Logo File: H:/YEAR4/TDP4_local/Full Colour White (with transparent background)/GIMP_UoG_keyline_bitmap.bmp
+Logo to be added on:  BOARD GEOMETRY/SILKSCREEN_TOP
+
+Cannot import logo because the file format is not supported. Open the logo file in MS Paint, save as 16 Color Bitmap file (.bmp), and then import the logo again.
+
+Logo Import Failed

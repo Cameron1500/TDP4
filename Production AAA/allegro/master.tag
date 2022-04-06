@@ -1,1 +1,1 @@
-production_board2_rev2.brd
+production_board2_rev2_silkscreen.brd

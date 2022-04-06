@@ -1,14 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Compose Shapes                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : university_logo.dra                           )
 (    Software Version : 17.2S055                                      )
-(    Date/Time        : Wed Apr 06 11:52:10 2022                      )
+(    Date/Time        : Wed Apr 06 11:52:37 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-current class name(BOARD GEOMETRY)
-Find smallest gap failed. Be cautious, this may not be an error
-A total of 44 shapes were created.
+Create Symbol of type: FORMAT
+    Directory = H:/GitHub/TDP4/Production AAA/allegro
+    Name      = university_logo.osm
+    User      = 2331546T
+    Machine   = vm-uks-cse-V-3
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
